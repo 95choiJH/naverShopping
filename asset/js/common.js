@@ -151,7 +151,75 @@ fetch('asset/json/gnbMenu.json')
 
     $('.sc-liveCalendar .content-box').append(li);
   })
+
+  data.trend.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let title = document.createElement('em');
+
+    a.setAttribute("href", "");
+
+    li.append(a);
+    a.append(title);
+    a.style.backgroundImage = "url("+el.src+")"
+    title.append(el.title);
+
+    $('.sc-trend ul').append(li);
+  })
   
+  data.shopMall.forEach(function(el){
+    let li = document.createElement('li');
+    let btn = document.createElement('button');
+    let imgWrap = document.createElement('div');
+    let img = document.createElement('img');
+    let title = document.createElement('em');
+
+    imgWrap.classList.add('img-wrap');
+    img.setAttribute("src", el.src);
+    img.setAttribute("alt", el.title);
+    
+    li.append(btn);
+    btn.append(imgWrap);
+    btn.append(title);
+    imgWrap.append(img);
+    title.append(el.title);
+    
+    $('.sc-toptop .btn-more').before(li);
+  })
+
+  data.shopMallItem.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let imgWrap = document.createElement('div');
+    let img = document.createElement('img');
+    let txtWrap = document.createElement('div');
+    let price = document.createElement('em');
+    let title = document.createElement('strong');
+
+    a.setAttribute("href", "");
+    imgWrap.classList.add('img-wrap');
+    img.setAttribute("src", el.src);
+    img.setAttribute("alt", el.title);
+    txtWrap.classList.add('txt-wrap');
+    
+    li.append(a);
+    a.append(imgWrap);
+    a.append(txtWrap);
+    imgWrap.append(img);
+    txtWrap.append(price);
+    txtWrap.append(title);
+    price.append(el.price);
+    title.append(el.title);
+
+    if (el.stamp != null) {
+      let stamp = document.createElement('span');
+      stamp.classList.add('stamp');
+      imgWrap.append(stamp);
+      stamp.append(el.stamp);
+    }
+
+    $('.sc-toptop .item-wrap').append(li);
+  })
 }).catch(function(error){
   console.error("gnbMenu 에러");
 })

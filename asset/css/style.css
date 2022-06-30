@@ -193,7 +193,7 @@ textarea::-webkit-outer-spin-button {
 */
 body {
   font-family: "MalgunGothic";
-  font-size: 13px;
+  font-size: 14px;
   color: #333;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
@@ -214,9 +214,16 @@ body {
   padding: 0 6px;
 }
 
+section {
+  margin-top: 6px;
+  border: 1px solid #e1e4e7;
+  background-color: #fff;
+}
+
 .eventSlide {
   width: 100%;
   height: 397px;
+  background-color: #e9ecef;
 }
 
 .swiper-slide {
@@ -242,13 +249,14 @@ body {
   transform: translateX(-50%);
   max-width: 305px;
   height: 3px;
-  background-color: #dee1e4;
 }
 .container .sc-eventSlide .eventSlide .swiper-pagination .swiper-pagination-bullet {
   flex: 1;
   height: 100%;
   margin: 0;
   border-radius: 0;
+  background-color: #dee1e4;
+  opacity: 1;
 }
 .container .sc-eventSlide .eventSlide .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #222;
@@ -458,9 +466,6 @@ body {
 
 .sc-shopLive {
   height: 102px;
-  margin-top: 6px;
-  border: 1px solid #e1e4e7;
-  background-color: #fff;
 }
 .sc-shopLive a {
   display: flex;
@@ -497,11 +502,6 @@ body {
   overflow: hidden;
 }
 
-.sc-recentItem {
-  margin-top: 6px;
-  border: 1px solid #e1e4e7;
-  background-color: #fff;
-}
 .sc-recentItem .title-box {
   padding: 16px 5px 14px;
   text-align: center;
@@ -535,11 +535,6 @@ body {
   vertical-align: middle;
 }
 
-.sc-liveCalendar {
-  margin-top: 6px;
-  border: 1px solid #e1e4e7;
-  background-color: #fff;
-}
 .sc-liveCalendar .title-box {
   display: block;
   padding: 18px 0 15px;
@@ -704,4 +699,385 @@ body {
 }
 .sc-liveCalendar .txtBot-box button svg {
   margin: 6px 2px 0 0;
+}
+
+.sc-trend {
+  position: relative;
+}
+.sc-trend .title-box {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.sc-trend h3 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.sc-trend .option-box {
+  padding-left: 5px;
+  font-size: 15px;
+  line-height: 19px;
+}
+.sc-trend .option-box button {
+  position: relative;
+  padding: 19px 8px 13px;
+  color: #7d7d7d;
+}
+.sc-trend .option-box button.active {
+  font-weight: 700;
+  color: #7a51e3;
+}
+.sc-trend .option-box button + button::before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 1px;
+  height: 13px;
+  background-color: #e3e3e3;
+}
+.sc-trend ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px 13px;
+}
+.sc-trend li {
+  flex-shrink: 0;
+  width: 33.3333%;
+  padding: 2px 2px 1px 1px;
+}
+.sc-trend a {
+  position: relative;
+  display: block;
+  padding-top: 120%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.sc-trend a em {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  padding: 0 7px;
+  line-height: 19px;
+  letter-spacing: -1px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-trend a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.04);
+  z-index: 1;
+}
+.sc-trend a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 35px;
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.45));
+}
+.sc-trend .pagination {
+  display: flex;
+  justify-content: center;
+  padding: 6px 15px 18px;
+  text-align: center;
+}
+.sc-trend .pagination button {
+  padding: 9px 18px 8px;
+  border: 1px solid #e6e6e6;
+  line-height: 16px;
+}
+.sc-trend .pagination button.btn-next {
+  transform: rotate(180deg);
+}
+.sc-trend .page-box {
+  display: inline-block;
+  position: relative;
+  width: 68px;
+  height: 34px;
+  margin-left: 1px;
+  font-size: 15px;
+  line-height: 34px;
+  color: #7d7d7d;
+}
+.sc-trend .page-box .curr-page {
+  color: #222;
+}
+.sc-trend .btn-more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 17px 17px 18px 18px;
+  line-height: 17px;
+}
+
+.sc-toptop {
+  text-align: center;
+  padding-bottom: 16px;
+}
+.sc-toptop .title-box {
+  display: block;
+  padding: 17px 9px 11px;
+  text-align: center;
+}
+.sc-toptop .title-box p {
+  line-height: 20px;
+  max-width: 100%;
+  padding-right: 10px;
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-toptop .title-box p svg {
+  width: 7px;
+  height: 11px;
+  margin: 5px 0 0 3px;
+}
+.sc-toptop .shopMall-wrap {
+  display: flex;
+  padding: 16px 13px 15px;
+  overflow: hidden;
+}
+.sc-toptop .shopMall-wrap li {
+  padding: 0 5px;
+}
+.sc-toptop .shopMall-wrap button {
+  width: 70px;
+}
+.sc-toptop .shopMall-wrap .img-wrap {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  margin: 0 auto;
+  border-radius: 24px;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+.sc-toptop .shopMall-wrap img {
+  width: 100%;
+  height: auto;
+  border-radius: 21px;
+}
+.sc-toptop .shopMall-wrap em {
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #333;
+  letter-spacing: -0.3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-toptop .shopMall-wrap .btn-more a {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  padding: 20px 0 18px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #ff3da5;
+  text-align: center;
+}
+.sc-toptop .shopMall-wrap .btn-more a svg {
+  position: absolute;
+  top: 27px;
+  left: 29px;
+}
+.sc-toptop .shopMall-wrap .btn-more a::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto 7px;
+  border-radius: 50%;
+  background-color: #ff00ac;
+}
+.sc-toptop .item-wrap {
+  display: flex;
+  padding: 0 15px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.sc-toptop .item-wrap li {
+  flex-shrink: 0;
+  width: 33.3333%;
+  padding: 0 2px;
+}
+.sc-toptop .item-wrap li a {
+  position: relative;
+  display: block;
+  padding-top: 100%;
+}
+.sc-toptop .item-wrap .img-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.sc-toptop .item-wrap .img-wrap img {
+  width: 100%;
+}
+.sc-toptop .item-wrap .stamp {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 5px;
+  background-color: rgba(255, 61, 165, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+.sc-toptop .item-wrap .txt-wrap {
+  height: 35px;
+  padding: 6px 6px 13px 0;
+  box-sizing: content-box;
+}
+.sc-toptop .item-wrap .txt-wrap em {
+  display: block;
+  font-weight: bold;
+  line-height: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-toptop .item-wrap .txt-wrap strong {
+  display: block;
+  line-height: 18px;
+  margin-top: 1px;
+  letter-spacing: -0.3px;
+  color: #222;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-toptop .item-wrap button {
+  max-width: 220px;
+}
+.sc-toptop .btn-next {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 5px auto 0;
+  padding: 0 17px;
+  border: 1px solid #e7e7e7;
+  border-radius: 19px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+.sc-toptop .btn-next .mall-title {
+  line-height: 36px;
+  color: #ff3da5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sc-toptop .btn-next .curr-page {
+  color: #ff3da5;
+}
+.sc-toptop .btn-next .total-page {
+  font-weight: 400;
+  color: #7d7d7d;
+}
+
+.sc-pick .login-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  padding: 0 11px 0 15px;
+  margin: -1px;
+  background-color: #04c642;
+  background-image: url(https://shopv.pstatic.net/web/m/20220629171014/_next/static/img/bg/shoppingHome/background_profile_750x186_gradation.png);
+  background-size: 375px auto;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  letter-spacing: -0.5px;
+  box-sizing: content-box;
+}
+.sc-pick .login-area p {
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+  color: #fff;
+}
+.sc-pick .login-area img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sc-pick .login-area img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.sc-pick h3 {
+  text-align: center;
+}
+.sc-pick a {
+  display: block;
+  padding: 16px 0;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #222;
+}
+.sc-pick .btn-more {
+  position: absolute;
+  top: 18px;
+  right: 8px;
+}
+.sc-pick .pick-item {
+  padding: 6px 10px 27px;
+  letter-spacing: -0.3px;
+  word-break: keep-all;
+  text-align: center;
+}
+.sc-pick .pick-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #585858;
+}
+.sc-pick .pick-item span {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 17px;
+  color: #a5a5a5;
+}
+.sc-pick .store-pick, .sc-pick .item-pick {
+  position: relative;
+}
+.sc-pick .item-pick {
+  border-top: 1px solid #eeeff1;
 }

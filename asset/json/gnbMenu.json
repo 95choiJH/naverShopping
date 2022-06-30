@@ -205,6 +205,127 @@
             "smallTitle": "홈파티 베스트 최대 ~43%",
             "mall": "이마트몰"
         }
+    ],
+
+    "trend": [
+        {
+            "src": "../asset/images/trend01.jpg",
+            "title": "후기3600건 팬츠"
+        },
+        {
+            "src": "../asset/images/trend02.jpg",
+            "title": "인기~ 가죽뮬5cm"
+        },
+        {
+            "src": "../asset/images/trend03.jpg",
+            "title": "반팔 원피스~"
+        },
+        {
+            "src": "../asset/images/trend04.jpg",
+            "title": "1만원대통굽슈즈"
+        },
+        {
+            "src": "../asset/images/trend05.jpg",
+            "title": "리본집게핀 무배"
+        },
+        {
+            "src": "../asset/images/trend06.jpg",
+            "title": "밴딩숏점프슈트"
+        },
+        {
+            "src": "../asset/images/trend07.jpg",
+            "title": "데일리레깅스1+1"
+        },
+        {
+            "src": "../asset/images/trend08.jpg",
+            "title": "원피스 SALE 46%"
+        },
+        {
+            "src": "../asset/images/trend09.jpg",
+            "title": "실버피쉬 이어링"
+        }
+    ],
+
+    "shopMall": [
+        {
+            "src": "../asset/images/shopMall01.jpg",
+            "title": "쥬니쥬"
+        },
+        {
+            "src": "../asset/images/shopMall02.jpg",
+            "title": "크렘므"
+        },
+        {
+            "src": "../asset/images/shopMall03.jpg",
+            "title": "라일론"
+        },
+        {
+            "src": "../asset/images/shopMall04.jpg",
+            "title": "히니크"
+        },
+        {
+            "src": "../asset/images/shopMall05.jpg",
+            "title": "뮬라웨어"
+        },
+        {
+            "src": "../asset/images/shopMall06.jpg",
+            "title": "온스 ON.S"
+        },
+        {
+            "src": "../asset/images/shopMall07.jpg",
+            "title": "베네노"
+        },
+        {
+            "src": "../asset/images/shopMall08.jpg",
+            "title": "렌느reine"
+        },
+        {
+            "src": "../asset/images/shopMall09.jpg",
+            "title": "jade"
+        },
+        {
+            "src": "../asset/images/shopMall10.jpg",
+            "title": "나이브실루엣"
+        }
+    ],
+
+    "shopMallItem": [
+        {
+            "src": "../asset/images/toptop01.jpg",
+            "price": "13,900원",
+            "title": "J'eu 프루티 체크 9부 파자마 팬츠 6color, 2size",
+
+            "stamp": "18%SALE"
+        },
+        {
+            "src": "../asset/images/toptop02.jpg",
+            "price": "29,800원",
+            "title": "J'eu 다프네 스크런치 파자마세트 2type, 2size"
+        },
+        {
+            "src": "../asset/images/toptop03.jpg",
+            "price": "26,000원",
+            "title": "J’eu 케빈 코튼 체크 파자마세트 couple, 2color",
+
+            "stamp": "자체제작"
+        },
+        {
+            "src": "../asset/images/toptop04.jpg",
+            "price": "32,000원",
+            "title": "J’eu 플러피 레이스 플리스 파자마세트 5color, 2type"
+        },
+        {
+            "src": "../asset/images/toptop05.jpg",
+            "price": "26,500원",
+            "title": "J'eu 레터링 베어 골지 파자마세트 2color",
+
+            "stamp": "신상SALE"
+        },
+        {
+            "src": "../asset/images/toptop06.jpg",
+            "price": "28,900원",
+            "title": "J’eu 노엘 벨벳 파자마세트 2type, 2size"
+        }
     ]
 
 }

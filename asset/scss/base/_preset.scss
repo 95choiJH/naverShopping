@@ -6,7 +6,7 @@
 body {
     // min-width: ?세팅하시고
     font-family: "MalgunGothic";
-    font-size: 13px;
+    font-size: 14px;
     color: #333;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -27,10 +27,11 @@ body {
 .common-inner{
     padding: 0 6px;
 }
-// section {
-//     position: absolute;
-//     bottom: 0;
-// }
+section {
+    margin-top: 6px;
+    border: 1px solid #e1e4e7;
+    background-color: #fff;
+}
 // section::after {
 //     @include border;
 // }
@@ -136,6 +137,7 @@ body {
 .eventSlide {
     width: 100%;
     height: 397px;
+    background-color: #e9ecef;
 }
 
 .swiper-slide {
@@ -170,12 +172,13 @@ body {
                 transform: translateX(-50%);
                 max-width: 305px;
                 height: 3px;
-                background-color: #dee1e4;
                 .swiper-pagination-bullet {
                     flex: 1;
                     height: 100%;
                     margin: 0;
                     border-radius: 0;
+                    background-color: #dee1e4;
+                    opacity: 1;
                     &.swiper-pagination-bullet-active {
                         background: #222;
                     }
