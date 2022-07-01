@@ -156,5 +156,54 @@
         color: #000000;
         line-height: 42px;
     }
-    
+} // 메인페이지 헤더
+
+.header-sub {
+    display: flex;
+    justify-content: space-between;
+    background-color: #292b2c;
+    .logo-area {
+        display: flex;
+        align-items: center;
+    }
+    h1 {
+        display: block;
+        padding: 17px 15px 17px 16px;
+    }
+    .naver-logo {
+        display: block;
+        width: 22px; height: 22px;
+        background-position: -368px -570px;
+    }
+    .brand-title {
+        display: block;
+        font-size: 21px;
+        line-height: 56px;
+        font-weight: bold;
+        color: #fff;
+        word-break: break-all;
+        white-space: nowrap;
+        word-wrap: normal;
+        @include ellipsis;
+    }
+    button {
+        display: block;
+        width: 24px; height: 24px;
+    }
+    .btn-area {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-right: 16px;
+    }
+    .btn-search {
+        background-position: -537px -523px;
+    }
+    .btn-cart {
+        background-position: -571px -369px;
+    }
+    .btn-menu {
+        background-position: -36px -570px;
+    }
 }
+

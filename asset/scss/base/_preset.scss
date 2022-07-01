@@ -1,7 +1,8 @@
 
 body {
-    font-family: "MalgunGothic";
+    font-family: -apple-system, BlinkMacSystemFont, helvetica, AppleSDGothicNeo, sans-serif;
     font-size: 14px;
+    line-height: 1.25em;
     color: #333;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
@@ -22,7 +23,7 @@ body {
 .common-inner{
     padding: 0 6px;
 }
-section {
+.container section {
     margin-top: 6px;
     border: 1px solid #e1e4e7;
     background-color: #fff;
@@ -119,5 +120,25 @@ section {
 }
 .sc-rank .title-box::before {
     background-image: url(../images/sprite_main02.png);
+    background-repeat: no-repeat;
+}
+// 메인 페이지
+
+.header-sub .naver-logo, .header-sub button, .btn-pick::before, .item-info button::before,
+.how a::before, .other-btn .btn-share::before, .other-btn .btn-pick::before {
+    background-image: url("https://static-resource-smartstore.pstatic.net/smartstore/m/static/20220630153710/img/sprite/svg/spIcon_svg.svg");
+    background-size: 659px 650px;
+    background-repeat: no-repeat;
+}
+
+.point-area em::after, .how a::after, .banner::after  {
+    background-image: url("https://static-resource-smartstore.pstatic.net/smartstore/m/static/20220630153710/img/sprite/svg/spArrow_svg.svg");
+    background-size: 193px 188px;
+    background-repeat: no-repeat;
+}
+
+.tip-title p::before {
+    background-image: url("https://static-resource-smartstore.pstatic.net/smartstore/m/static/20220630153710/img/sprite/svg/spText_svg.svg");
+    background-size: 336px 295px;
     background-repeat: no-repeat;
 }

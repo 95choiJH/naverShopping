@@ -4,6 +4,7 @@ fetch('asset/json/main.json')
   return response.json();
 })
 .then((data) => {
+  
   data.gnbMenu.forEach(function(el) {
     let li = document.createElement('li')
     let a = document.createElement('a');
@@ -324,7 +325,6 @@ fetch('asset/json/main.json')
     let price = document.createElement('em');
     let won = document.createElement('span');
 
-    a.setAttribute("href", "");
     imgWrap.classList.add("img-wrap");
     img.setAttribute("src", el.src);
     img.setAttribute("alt", el.title);
@@ -386,7 +386,71 @@ fetch('asset/json/main.json')
     }
 
     $('.service-area ul').append(li);
-  })
+  });
+
+    let brandImg = document.createElement('img');
+    let itemImg = document.createElement('img');
+    let brand = document.createElement('em');
+    let pickCount = document.createElement('span');
+    let title = document.createElement('h2');
+    let reviewCount = document.createElement('span');
+    let disPer = document.createElement('em');
+    let del = document.createElement('em');
+    let priceWon = document.createElement('span');
+    let price = document.createElement('em');
+    let stackPoint = document.createElement('em');
+    let stackWon = document.createElement('span');
+    let oriPoint = document.createElement('span');
+    let maxPoint = document.createElement('span');
+    let fiveperPoint = document.createElement('em');
+    let cardPoint = document.createElement('em');
+    let chargePoint = document.createElement('em');
+
+    brandImg.setAttribute("src", data.itemPage[0].brandSrc);
+    brandImg.setAttribute("alt", data.itemPage[0].brand);
+    brandImg.style.maxWidth = data.itemPage[0].maxWidth;
+    brandImg.style.maxHeight = data.itemPage[0].maxHeight;
+    itemImg.setAttribute("src", data.itemPage[0].itemSrc);
+    itemImg.setAttribute("alt", data.itemPage[0].title);
+    brandImg.classList.add('brand-title');
+    del.classList.add('del');
+    price.classList.add('discount-price');
+    maxPoint.classList.add('max-point');
+    brand.append(data.itemPage[0].brand);
+    pickCount.append(data.itemPage[0].pickCount);
+    title.append(data.itemPage[0].title);
+    reviewCount.append(data.itemPage[0].reviewCount);
+    disPer.append(data.itemPage[0].disPer);
+    del.append(data.itemPage[0].del);
+    price.append(data.itemPage[0].price);
+    priceWon.append("원")
+    price.append(priceWon);
+    stackPoint.append(data.itemPage[0].stackPoint);
+    stackWon.append("원")
+    stackPoint.append(stackWon);
+    oriPoint.append(data.itemPage[0].oriPoint);
+    maxPoint.append(data.itemPage[0].maxPoint);
+    fiveperPoint.append(data.itemPage[0].fiveperPoint);
+    cardPoint.append(data.itemPage[0].cardPoint);
+    chargePoint.append(data.itemPage[0].chargePoint);
+
+    $('.header-sub .logo-area').append(brandImg);
+    $('.sc-item .img-area .img-wrap').append(itemImg);
+    $('.pick-area').prepend(brand);
+    $('.pick').append(pickCount);
+    $('.sc-item .item-info').prepend(title);
+    $('.more-review').prepend(reviewCount);
+    $('.discount-area').append(disPer);
+    $('.discount-area').append(del);
+    $('.item-info').append(price);
+    $('.discount-price').append(priceWon);
+    $('.stack-point').append(stackPoint);
+    $('.tip-box .origin').append(oriPoint);
+    $('.maxPoint-area').append(maxPoint);
+    $('.maxPoint-area').append("원");
+    $('.fiveperPoint').append(fiveperPoint);
+    $('.cardPoint').append(cardPoint);
+    $('.chargePoint').append(chargePoint);
 }).catch(function(error){
   console.error("gnbMenu 에러");
 })
