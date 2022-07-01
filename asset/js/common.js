@@ -1,5 +1,5 @@
 
-fetch('asset/json/gnbMenu.json')
+fetch('asset/json/main.json')
 .then((response) => {
   return response.json();
 })
@@ -10,9 +10,30 @@ fetch('asset/json/gnbMenu.json')
 
     a.setAttribute("href", "");
 
-    li.append(a);
-    a.append(el.title);
+    if (el.title != null) {
+      a.append(el.title);
+    } else {
+      let blind = document.createElement('span')
+      blind.classList.add('blind');
+      a.append(blind);
+      if (el.svg != null) {
+        a.innerHTML = el.svg;
+        blind.append(el.blind);
+      } else {
+        a.classList.add('img-title');
+        a.style.width = el.width;
+        a.style.height = el.height;
+        a.style.backgroundPosition = el.position;
+        blind.append(el.blind);
+      }
+    }
+    
+    if (el.beta != null) {
+      let beta = document.createElement('i');
+      a.append(beta);
+    }
 
+    li.append(a);
     $('.gnb-wrap').append(li);
   })
 
@@ -219,6 +240,152 @@ fetch('asset/json/gnbMenu.json')
     }
 
     $('.sc-toptop .item-wrap').append(li);
+  });
+
+  data.rank.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let title = document.createElement('span');
+
+    a.setAttribute("href", "");
+    a.style.backgroundImage = "url("+el.src+")"
+
+    li.append(a);
+    a.append(title);
+    title.append(el.title);
+
+    $('.content-rank ul').append(li);
+  });
+
+  data.best.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let imgWrap = document.createElement('div');
+    let img = document.createElement('img');
+    let num = document.createElement('span');
+    let txtWrap = document.createElement('div');
+    let title = document.createElement('strong');
+    let price = document.createElement('em');
+    let won = document.createElement('span');
+
+    a.setAttribute("href", "");
+    imgWrap.classList.add('img-wrap');
+    img.setAttribute("src", el.src);
+    img.setAttribute("alt", el.title);
+    txtWrap.classList.add('txt-box');
+    
+    li.append(a);
+    a.append(imgWrap);
+    a.append(txtWrap);
+    imgWrap.append(img);
+    imgWrap.append(num);
+    num.append(el.num);
+    txtWrap.append(title);
+    txtWrap.append(price);
+    title.append(el.title);
+    price.append(el.price);
+    price.append(won);
+    won.append("원");
+
+    $('.content-best ul').append(li);
+  });
+
+  data.brand.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let imgWrap = document.createElement('div');
+    let img = document.createElement('img');
+    let title = document.createElement('em');
+
+    a.setAttribute("href", "");
+    imgWrap.classList.add('img-wrap');
+    img.setAttribute("src", el.src);
+    img.setAttribute("alt", el.title);
+    
+    li.append(a);
+    a.append(imgWrap);
+    a.append(title);
+    imgWrap.append(img);
+    title.append(el.title);
+
+    $('.sc-brand ul').append(li);
+  });
+
+  data.hotDeal.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let imgWrap = document.createElement('div');
+    let img = document.createElement('img');
+    let stamp = document.createElement('div');
+    let per = document.createElement('span');
+    let txtWrap = document.createElement('div');
+    let time = document.createElement('p');
+    let title = document.createElement('strong');
+    let price = document.createElement('em');
+    let won = document.createElement('span');
+
+    a.setAttribute("href", "");
+    imgWrap.classList.add("img-wrap");
+    img.setAttribute("src", el.src);
+    img.setAttribute("alt", el.title);
+    stamp.classList.add("discount-stamp");
+    txtWrap.classList.add("txt-wrap");
+    
+    li.append(a);
+    a.append(imgWrap);
+    a.append(txtWrap);
+    imgWrap.append(img);
+    imgWrap.append(stamp);
+    stamp.append(el.discount);
+    stamp.append(per);
+    per.append("%");
+    txtWrap.append(time);
+    txtWrap.append(title);
+    txtWrap.append(price);
+    time.append("남은시간 00: 00: 00")
+    title.append(el.title);
+    price.append(el.price);
+    price.append(won);
+    won.append("원");
+
+    $('.sc-hotDeal ul').append(li);
+  
+  });
+
+  data.category.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+    let i = document.createElement('i');
+
+
+    a.setAttribute("href", "");
+    i.style.backgroundImage = "url("+el.src+")";
+
+    li.append(a);
+    a.append(i);
+    a.append(el.title);
+
+    $('.category-area ul').append(li);
+  });
+
+  data.service.forEach(function(el){
+    let li = document.createElement('li');
+    let a = document.createElement('a');
+
+    a.setAttribute("href", "");
+
+    li.append(a);
+
+    if (el.title != null) {
+      let i = document.createElement('i');
+      a.append(i);
+      a.append(el.title);
+      i.innerHTML = el.svg;
+    } else {
+      a.innerHTML = el.svg + el.titleSVG;
+    }
+
+    $('.service-area ul').append(li);
   })
 }).catch(function(error){
   console.error("gnbMenu 에러");

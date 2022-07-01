@@ -1,0 +1,827 @@
+{
+    "gnbMenu" : [
+        {  
+            "title": "홈"
+        },
+        {   
+            "title": "FOR YOU",
+            "beta": true
+        },
+        {   
+            "svg": "<svg width='40' height='17' viewBox='0 0 40 17' fill='none' class='_lnb_icon_36az7'><path d='M2.636 13.536h2.422v-2.482h3.116V9.03H0l.018 2.026h2.618v1.756H.007V16.4h11.908v-1.945H2.636v-.918z' fill='#121212'/><path d='M9.16 11.96H6.042v1.573h5.871V2.899H9.16v9.062zM1.654 7.53a3.505 3.505 0 002.289.81h.298a3.505 3.505 0 002.282-.81c.383-.34.656-.786.785-1.283.13-.504.13-1.034 0-1.538-.35-1.297-1.577-2.104-3.218-2.104C2.103 2.605.77 3.76.77 5.473a2.664 2.664 0 00.884 2.057zm2.454-3.154a1.09 1.09 0 11-1.089.655A1.073 1.073 0 014.09 4.39l.018-.014zM39.006 2.66h-2.85v5.805h2.85V2.66zm-4.59 1.879h-4.634v2.012h4.634v1.91h-7.322v-5.8h7.322v1.878zm-7.322 6.536h9.093v.918h-9.093V16.4H39v-1.784h-9.089V13.7h9.09V9.371H27.093v1.704zm-1.64-4.446H13.547v1.83h11.907v-1.83zM18.74 4.935h1.528v-1.5h1.49V1.902h-1.49v-1.5H18.74v1.5h-1.49v1.531h1.49v1.5zm-5.193 6.14h9.093v.918h-9.093V16.4h11.91v-1.784h-9.092V13.7h9.093V9.371H13.547v1.704zM24.89 5.209V0h-2.183v5.339h2.184v-.13zm-8.593 0V0h-2.184v5.339h2.184v-.13z' fill='#121212'/></svg>",
+            "blind": "원쁠딜",
+            "beta": true
+        },
+        {   
+            "title": "백화점윈도"
+        },
+        {   
+            "title": "아울렛윈도"
+        },
+        {   
+            "title": "스타일윈도"
+        },
+        {   
+            "title": "디자이너윈도"
+        },
+        {   
+            "title": "뷰티윈도"
+        },
+        {   
+            "title": "럭셔리"
+        },
+        {   
+            "title": "리빙윈도"
+        },
+        {   
+            "title": "푸드윈도"
+        },
+        {   
+            "title": "장보기"
+        },
+        {   
+            "title": "키즈윈도"
+        },
+        {   
+            "title": "플레이윈도"
+        },
+        {   
+            "title": "아트윈도"
+        },
+        {   
+            "blind": "MR.",
+            "width": "31px",
+            "height": "12px",
+            "position": "-153px -206px"
+        },
+        {   
+            "title": "핫딜"
+        },
+        {   
+            "title": "선물샵"
+        },
+        {   
+            "title": "해외직구"
+        },
+        {   
+            "blind": "TOPTOP",
+            "width": "48px",
+            "height": "20px",
+            "position": "-156px -42px"
+        },
+        {   
+            "title": "기획전"
+        },
+        {   
+            "blind": "BEST",
+            "width": "39px",
+            "height": "13px",
+            "position": "-30px -206px"
+        },
+        {   
+            "blind": "쇼핑LIVE",
+            "width": "57px",
+            "height": "20px",
+            "position": "-43px -97px"
+        },
+        {   
+            "blind": "AiTEMS",
+            "width": "56px",
+            "height": "11px",
+            "position": "-156px -128px"
+        }
+    ],
+
+    "eventSlide": [
+        {
+            "src": "../asset/images/eventSlide01.jpg",
+            "title": "단 하루 이 가격!",
+            "desc": "코오롱스포츠 아울렛SS 혜택"
+        },
+        {
+            "src": "../asset/images/eventSlide02.jpg",
+            "title": "블랑101&누들앤부",
+            "desc": "최대 59% 할인 찬스"
+        },
+        {
+            "src": "../asset/images/eventSlide03.jpg",
+            "title": "UP TO 47% SALE",
+            "desc": "GS프레시몰 단 하루 특가"
+        },
+        {
+            "src": "../asset/images/eventSlide04.jpg",
+            "title": "최대 80% 할인",
+            "desc": "우리 아이 여름 나기 필수템"
+        },
+        {
+            "src": "../asset/images/eventSlide05.jpg",
+            "title": "오늘 바로 발송",
+            "desc": "CJ제일제당 최대 54%할인"
+        },
+        {
+            "src": "../asset/images/eventSlide06.jpg",
+            "title": "빌리프 19% SALE",
+            "desc": "뉴메로 10 에센스 선 론칭"
+        },
+        {
+            "src": "../asset/images/eventSlide07.jpg",
+            "title": "가족부터 친구까지",
+            "desc": "네이버 플러스 멤버십 패밀리"
+        },
+        {
+            "src": "../asset/images/eventSlide08.jpg",
+            "title": "이번 달 쇼핑 혜택",
+            "desc": "간편결제하고 포인트 적립받기"
+        },
+        {
+            "src": "../asset/images/eventSlide09.jpg",
+            "title": "집사라면 주목",
+            "desc": "하림펫푸드 X 러빙펫 캠페인"
+        }
+    ],
+
+    "shopLive": [
+        {
+            "src": "../asset/images/shopLive01.jpg",
+            "title": "[섬머위크] 50년 전통 전주 메밀소바, 콩국수 특가",
+            "time": "오늘 PM 6시"
+        },
+        {
+            "src": "../asset/images/shopLive02.jpg",
+            "title": "우삼겹 팔당오징어, 양념 왕구이, 베개수박 라이브특가♥",
+            "time": "오늘 PM 6시"
+        },
+        {
+            "src": "../asset/images/shopLive03.png",
+            "title": "[월간키덜트]이집트의 신이 되어 전쟁에서 승리하라",
+            "time": "오늘 PM 7시"
+        },
+        {
+            "src": "../asset/images/shopLive04.png",
+            "title": "하이뮨 2천억 달성 축하파티",
+            "time": "오늘 PM 7시"
+        },
+        {
+            "src": "../asset/images/shopLive05.png",
+            "title": "[FLY AGAIN]나트랑 특급 자유여행! 단독 특가!",
+            "time": "오늘 PM 7시"
+        },
+        {
+            "src": "../asset/images/shopLive06.jpg",
+            "title": "휘닉스 평창에서 즐기는 서머 바캉스",
+            "time": "오늘 PM 7시"
+        },
+        {
+            "src": "../asset/images/shopLive07.jpg",
+            "title": "충격실화!!트러블과 이혼했어요(핑크시카와 재혼💕)",
+            "time": "오늘 PM 7시"
+        },
+        {
+            "src": "../asset/images/shopLive08.png",
+            "title": "박경림의 사는 재미 번외편. 이마트 파머스픽 퀴즈쇼",
+            "time": "오늘 PM 8시"
+        },
+        {
+            "src": "../asset/images/shopLive09.png",
+            "title": "만도 애프터 블로우 & 블랙박스 서머위크 기념 라이브",
+            "time": "오늘 PM 8시"
+        }
+    ],
+
+    "liveCalendar": [
+        {
+            "largeSrc": "../asset/images/liveCalendar01.png",
+            "largeTitle": "만도 애프터 블로우 & 블랙박스 서머위크 기념 라이브",
+            "date": "6월 30일",
+            "time": "17:00",
+            "desc": "라이브방송시 최대55%DC,사은품증정",
+            "smallSrc": "../asset/images/liveCalendar_small01.png",
+            "smallTitle": "만도 애프터 블로우 V3 차량 에어컨 냄새 습기 건조기 최신 제조 제품",
+            "discount": "54%",
+            "price": "99,000",
+            "mall": "온라인 공식판매처"
+        },
+        {
+            "largeSrc": "../asset/images/liveCalendar02.png",
+            "largeTitle": "박경림의 사는 재미 번외편. 이마트 파머스픽 퀴즈쇼",
+            "date": "6월 30일",
+            "time": "20:00",
+            "desc": "박경림 출연",
+            "smallSrc": "../asset/images/liveCalendar_small02.png",
+            "other": "할인에 할인을 더한 파격특가",
+            "smallTitle": "믿고 사는 파머스픽 신선제품",
+            "mall": "박경림의 사는 이야기"
+        },
+        {
+            "largeSrc": "../asset/images/liveCalendar03.png",
+            "largeTitle": "홈파티 베스트 최대 43%할인! 파머스픽 푸드스타일링!",
+            "date": "7월 1일",
+            "time": "11:00",
+            "smallSrc": "../asset/images/liveCalendar_small03.jpg",
+            "smallTitle": "홈파티 베스트 최대 ~43%",
+            "mall": "이마트몰"
+        }
+    ],
+
+    "trend": [
+        {
+            "src": "../asset/images/trend01.jpg",
+            "title": "후기3600건 팬츠"
+        },
+        {
+            "src": "../asset/images/trend02.jpg",
+            "title": "인기~ 가죽뮬5cm"
+        },
+        {
+            "src": "../asset/images/trend03.jpg",
+            "title": "반팔 원피스~"
+        },
+        {
+            "src": "../asset/images/trend04.jpg",
+            "title": "1만원대통굽슈즈"
+        },
+        {
+            "src": "../asset/images/trend05.jpg",
+            "title": "리본집게핀 무배"
+        },
+        {
+            "src": "../asset/images/trend06.jpg",
+            "title": "밴딩숏점프슈트"
+        },
+        {
+            "src": "../asset/images/trend07.jpg",
+            "title": "데일리레깅스1+1"
+        },
+        {
+            "src": "../asset/images/trend08.jpg",
+            "title": "원피스 SALE 46%"
+        },
+        {
+            "src": "../asset/images/trend09.jpg",
+            "title": "실버피쉬 이어링"
+        }
+    ],
+
+    "shopMall": [
+        {
+            "src": "../asset/images/shopMall01.jpg",
+            "title": "쥬니쥬"
+        },
+        {
+            "src": "../asset/images/shopMall02.jpg",
+            "title": "크렘므"
+        },
+        {
+            "src": "../asset/images/shopMall03.jpg",
+            "title": "라일론"
+        },
+        {
+            "src": "../asset/images/shopMall04.jpg",
+            "title": "히니크"
+        },
+        {
+            "src": "../asset/images/shopMall05.jpg",
+            "title": "뮬라웨어"
+        },
+        {
+            "src": "../asset/images/shopMall06.jpg",
+            "title": "온스 ON.S"
+        },
+        {
+            "src": "../asset/images/shopMall07.jpg",
+            "title": "베네노"
+        },
+        {
+            "src": "../asset/images/shopMall08.jpg",
+            "title": "렌느reine"
+        },
+        {
+            "src": "../asset/images/shopMall09.jpg",
+            "title": "jade"
+        },
+        {
+            "src": "../asset/images/shopMall10.jpg",
+            "title": "나이브실루엣"
+        }
+    ],
+
+    "shopMallItem": [
+        {
+            "src": "../asset/images/toptop01.jpg",
+            "price": "13,900원",
+            "title": "J'eu 프루티 체크 9부 파자마 팬츠 6color, 2size",
+
+            "stamp": "18%SALE"
+        },
+        {
+            "src": "../asset/images/toptop02.jpg",
+            "price": "29,800원",
+            "title": "J'eu 다프네 스크런치 파자마세트 2type, 2size"
+        },
+        {
+            "src": "../asset/images/toptop03.jpg",
+            "price": "26,000원",
+            "title": "J’eu 케빈 코튼 체크 파자마세트 couple, 2color",
+
+            "stamp": "자체제작"
+        },
+        {
+            "src": "../asset/images/toptop04.jpg",
+            "price": "32,000원",
+            "title": "J’eu 플러피 레이스 플리스 파자마세트 5color, 2type"
+        },
+        {
+            "src": "../asset/images/toptop05.jpg",
+            "price": "26,500원",
+            "title": "J'eu 레터링 베어 골지 파자마세트 2color",
+
+            "stamp": "신상SALE"
+        },
+        {
+            "src": "../asset/images/toptop06.jpg",
+            "price": "28,900원",
+            "title": "J’eu 노엘 벨벳 파자마세트 2type, 2size"
+        }
+    ],
+
+    "rank": [
+        {
+            "src": "../asset/images/rank01.jpg",
+            "title": "뜨거운 여름 필수템"
+        },
+        {
+            "src": "../asset/images/rank02.jpg",
+            "title": "색다른 취미 생활"
+        },
+        {
+            "src": "../asset/images/rank03.jpg",
+            "title": "어떤 코디에나 찰떡"
+        },
+        {
+            "src": "../asset/images/rank04.jpg",
+            "title": "슬림해 보여요"
+        }
+    ],
+
+    "best": [
+        {
+            "src": "../asset/images/best01.jpg",
+            "title": "복숭아 딱딱이 납작복숭아 신비복숭아 대극천 말랑이 천도 백도 황도 하우스",
+            "num": "1",
+            "price": "9,900"
+        },
+        {
+            "src": "../asset/images/best02.jpg",
+            "title": "구)올림피아 / 현)알프스 아이스크림 (업소용 벌크형 축제 행사 운동회 후식 아이스크림)",
+            "num": "2",
+            "price": "14,000"
+        },
+        {
+            "src": "../asset/images/best03.jpg",
+            "title": "헌터 오리지널 플레이 숏 앵클 여성 여름 장화 레인부츠 부츠",
+            "num": "3",
+            "price": "89,790"
+        },
+        {
+            "src": "../asset/images/best04.jpg",
+            "title": "크록스 슬리퍼 클래식 클로그 크록밴드 바야밴드 샌들 여름 여성 남성 실내 사무실 슬리퍼",
+            "num": "4",
+            "price": "18,900"
+        },
+        {
+            "src": "../asset/images/best05.jpg",
+            "title": "레인부츠 여성장화 예쁜 장마철 츄츄스",
+            "num": "5",
+            "price": "32,900"
+        },
+        {
+            "src": "../asset/images/best06.jpg",
+            "title": "크록스여자장화 여성용 명품 성인 레인 미들 가벼운 장마철신발 워커부츠 가벼운 웨스턴부츠",
+            "num": "6",
+            "price": "17,900"
+        },
+        {
+            "src": "../asset/images/best07.jpg",
+            "title": "본사공식 토앤토 플립플랍 ZEROVITY",
+            "num": "7",
+            "price": "44,000"
+        },
+        {
+            "src": "../asset/images/best08.jpg",
+            "title": "[데일리팜] 납작복숭아 대극천복숭아 신비복숭아 빅숭아 천도 신선 백도 말랑이 딱딱이",
+            "num": "8",
+            "price": "15,800"
+        },
+        {
+            "src": "../asset/images/best09.jpg",
+            "title": "비브리브 꼬박꼬밥 맛있는 다이어트 식사대용 단백질 쉐이크",
+            "num": "9",
+            "price": "24,500"
+        },
+        {
+            "src": "../asset/images/best10.jpg",
+            "title": "강아지 우비 레인코트 비옷 소형견 중형견 대형견 판초 스타일 강아지옷",
+            "num": "10",
+            "price": "11,500"
+        },
+        {
+            "src": "../asset/images/best11.jpg",
+            "title": "(국내매장판) 뉴발란스 토앤토 플립플랍 오찌 쪼리 슬라이드",
+            "num": "11",
+            "price": "39,000"
+        },
+        {
+            "src": "../asset/images/best12.jpg",
+            "title": "댕댕스 강아지 우비 비옷 판초 방수 올인원 레인코트",
+            "num": "12",
+            "price": "8,900"
+        },
+        {
+            "src": "../asset/images/best13.jpg",
+            "title": "샘스레이버 여성장화 레인부츠 패션 장화 반장화 방수 고무 여자 주니어 발목 레인슈즈",
+            "num": "13",
+            "price": "16,500"
+        },
+        {
+            "src": "../asset/images/best14.jpg",
+            "title": "삼립 포켓몬빵 랜덤1봉 / 결제대기(나중에결제) 절대 불가",
+            "num": "14",
+            "price": "1,200"
+        },
+        {
+            "src": "../asset/images/best15.jpg",
+            "title": "(국내매장판) 우포스 쪼리 슬리퍼 블랙 핑크 베이지 아이보리 네이비 클로그",
+            "num": "15",
+            "price": "61,000"
+        },
+        {
+            "src": "../asset/images/best16.jpg",
+            "title": "(국내매장판) 뉴발란스 토앤토 오찌 플립플랍 쪼리 슬라이드",
+            "num": "16",
+            "price": "39,000"
+        },
+        {
+            "src": "../asset/images/best17.jpg",
+            "title": "크록스 지비츠 호환 세트 퍼비츠 파츠 장식 비즈 악세사리 LED 자비츠",
+            "num": "17",
+            "price": "490"
+        },
+        {
+            "src": "../asset/images/best18.jpg",
+            "title": "Kodak M35 / M38 코닥 필름 다회용 토이카메라 모음전",
+            "num": "18",
+            "price": "31,900"
+        },
+        {
+            "src": "../asset/images/best19.jpg",
+            "title": "귀욤귀욤 크록스 지비츠 호환 파츠세트 70종",
+            "num": "19",
+            "price": "7,900"
+        },
+        {
+            "src": "../asset/images/best20.jpg",
+            "title": "삼립빵 14종 허쉬 초코롤 단팥 크림빵 / 포켓몬빵 랜덤발송 수량제한(4개) 옵션확인 한번구매시 재구매 불가",
+            "num": "20",
+            "price": "990"
+        }
+    ],
+
+    "brand": [
+        {
+            "src": "../asset/images/brand01.jpg",
+            "title": "로보카폴리 공식스토어"
+        },
+        {
+            "src": "../asset/images/brand02.jpg",
+            "title": "미니멀웍스"
+        },
+        {
+            "src": "../asset/images/brand03.jpg",
+            "title": "모이몰른 공식몰"
+        },
+        {
+            "src": "../asset/images/brand04.jpg",
+            "title": "ZOOC"
+        },
+        {
+            "src": "../asset/images/brand05.jpg",
+            "title": "다우닝"
+        },
+        {
+            "src": "../asset/images/brand06.jpg",
+            "title": "맥포머스"
+        },
+        {
+            "src": "../asset/images/brand07.jpg",
+            "title": "웅진식품"
+        },
+        {
+            "src": "../asset/images/brand08.jpg",
+            "title": "3M 본사직영몰"
+        },
+        {
+            "src": "../asset/images/brand09.jpg",
+            "title": "HiPP"
+        },
+        {
+            "src": "../asset/images/brand10.jpg",
+            "title": "주식회사 캠프밸리"
+        },
+        {
+            "src": "../asset/images/brand11.jpg",
+            "title": "로투스"
+        },
+        {
+            "src": "../asset/images/brand12.jpg",
+            "title": "아모레 헤어바디 공식몰"
+        },
+        {
+            "src": "../asset/images/brand13.jpg",
+            "title": "바버 공식스토어"
+        },
+        {
+            "src": "../asset/images/brand14.jpg",
+            "title": "오뚜기몰"
+        },
+        {
+            "src": "../asset/images/brand15.jpg",
+            "title": "세인트나인"
+        },
+        {
+            "src": "../asset/images/brand16.jpg",
+            "title": "핀일로"
+        },
+        {
+            "src": "../asset/images/brand17.jpg",
+            "title": "CNP 공식 스토어"
+        },
+        {
+            "src": "../asset/images/brand18.jpg",
+            "title": "LG생활건강 유아동"
+        },
+        {
+            "src": "../asset/images/brand19.jpg",
+            "title": "100퍼센트 브랜드스토어"
+        },
+        {
+            "src": "../asset/images/brand20.jpg",
+            "title": "페넬로페"
+        },
+        {
+            "src": "../asset/images/brand21.jpg",
+            "title": "실크테라피 공식몰"
+        },
+        {
+            "src": "../asset/images/brand22.jpg",
+            "title": "파인드카푸어"
+        },
+        {
+            "src": "../asset/images/brand23.jpg",
+            "title": "뉴트리원공식스토어"
+        },
+        {
+            "src": "../asset/images/brand24.jpg",
+            "title": "밤부베베"
+        },
+        {
+            "src": "../asset/images/brand25.jpg",
+            "title": "케이투 공식스토어"
+        },
+        {
+            "src": "../asset/images/brand26.jpg",
+            "title": "WAKEMAKE"
+        },
+        {
+            "src": "../asset/images/brand27.jpg",
+            "title": "프롬바이오 공식스토어"
+        },
+        {
+            "src": "../asset/images/brand28.jpg",
+            "title": "Henry Cottons"
+        },
+        {
+            "src": "../asset/images/brand29.jpg",
+            "title": "캠핑퍼스트"
+        },
+        {
+            "src": "../asset/images/brand30.jpg",
+            "title": "지고트"
+        }
+    ],
+
+    "hotDeal": [
+        {
+            "src": "../asset/images/hotDeal01.jpg",
+            "discount": "39",
+            "title": "옥수수수염차 무라벨 1.25L 12펫",
+            "price": "13,900"
+        },
+        {
+            "src": "../asset/images/hotDeal02.jpg",
+            "discount": "25",
+            "title": "네스카페 돌체구스토 콜드브루3+굿즈",
+            "price": "29,400"
+        },
+        {
+            "src": "../asset/images/hotDeal03.jpg",
+            "discount": "32",
+            "title": "닭발 유목민들 정착시킨 찐 수제닭발",
+            "price": "6,900"
+        }
+    ],
+    
+    "category": [
+        {
+            "src": "../asset/images/ic_femaleF.png",
+            "title": "여성패션"
+        },
+        {
+            "src": "../asset/images/ic_maleF.png",
+            "title": "남성패션"
+        },
+        {
+            "src": "../asset/images/ic_accessory.png",
+            "title": "액세서리"
+        },
+        {
+            "src": "../asset/images/ic_beauty.png",
+            "title": "화장품/미용"
+        },
+        {
+            "src": "../asset/images/ic_furniture.png",
+            "title": "가구/인테리어"
+        },
+        {
+            "src": "../asset/images/ic_food.png",
+            "title": "식품"
+        },
+        {
+            "src": "../asset/images/ic_kid.png",
+            "title": "출산/유아동"
+        },
+        {
+            "src": "../asset/images/ic_pet.png",
+            "title": "반려동물용품"
+        },
+        {
+            "src": "../asset/images/ic_living.png",
+            "title": "생활/주방용품"
+        },
+        {
+            "src": "../asset/images/ic_homeAppliances.png",
+            "title": "가전"
+        },
+        {
+            "src": "../asset/images/ic_digital.png",
+            "title": "디지털"
+        },
+        {
+            "src": "../asset/images/ic_computer.png",
+            "title": "컴퓨터"
+        },
+        {
+            "src": "../asset/images/ic_sports.png",
+            "title": "스포츠/레저"
+        },
+        {
+            "src": "../asset/images/ic_health.png",
+            "title": "건강/의료용품"
+        },
+        {
+            "src": "../asset/images/ic_vehicle.png",
+            "title": "자동차/공구"
+        },
+        {
+            "src": "../asset/images/ic_hobby.png",
+            "title": "취미/문구/악기"
+        },
+        {
+            "src": "../asset/images/ic_book.png",
+            "title": "도서"
+        },
+        {
+            "src": "../asset/images/ic_subscribe.png",
+            "title": "정기구독"
+        },
+        {
+            "src": "../asset/images/ic_trip.png",
+            "title": "여행"
+        },
+        {
+            "src": "../asset/images/ic_coupone.png",
+            "title": "E쿠폰/티켓"
+        },
+        {
+            "src": "../asset/images/ic_rental.png",
+            "title": "렌탈관"
+        },
+        {
+            "src": "../asset/images/ic_refur.png",
+            "title": "리퍼비시관"
+        },
+        {
+            "src": "../asset/images/ic_taxFree.png",
+            "title": "면세점"
+        }
+    ],
+
+    "service": [
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='url(#iconForYouBox_26x26_blue_svg__e6usixobza)' d='M0 0h26v26H0z'/><path fill-rule='evenodd' clip-rule='evenodd' d='M9.34 7.48a.542.542 0 01.41.526v5.442c0 1.994 1.542 3.456 3.25 3.456 1.709 0 3.25-1.462 3.25-3.456v-3.325h2.167v3.325c0 2.958-2.34 5.51-5.417 5.51-3.079 0-5.417-2.553-5.417-5.51V7.042l1.756.438z' fill='#fff'/><path d='M16.25 7.042h2.167v2.166H16.25V7.042z' fill='#00FF4D'/><defs><linearGradient id='iconForYouBox_26x26_blue_svg__e6usixobza' x1='0' y1='0' x2='27.625' y2='27.625' gradientUnits='userSpaceOnUse'><stop stop-color='#3169FA'/><stop offset='1' stop-color='#2C65F9'/></linearGradient></defs></svg>",
+            "title": "FOR YOU"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#0E256E' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#0E256E'/><path d='M4.089 15.752h1.267v-1.3h1.633v-1.059h-4.28l.008 1.062h1.372v.919H2.713v1.877h6.233v-1.018H4.09v-.481z' fill='#fff'/><path d='M7.505 14.93H5.874v.824h3.074v-5.569H7.505v4.745zm-3.931-2.322c.336.28.76.43 1.198.423h.156c.436.005.86-.144 1.195-.422.2-.179.344-.413.412-.673a1.603 1.603 0 000-.806c-.184-.679-.827-1.1-1.686-1.1-1.04 0-1.738.603-1.738 1.501a1.396 1.396 0 00.463 1.077zm1.284-1.652a.572.572 0 11-.436.155.563.563 0 01.427-.148l.009-.007zm18.271-.897h-1.492v3.04h1.492v-3.04zm-2.402.984h-2.426v1.054h2.427v1h-3.836v-3.038h3.835v.984zm-3.834 3.42h4.76v.482h-4.76v2.307h6.235v-.935H18.37v-.479h4.76v-2.267h-6.236v.893-.002zm-.858-2.326H9.801v.958h6.234v-.958z' fill='#fff'/><path d='M12.519 11.252h.8v-.787h.78v-.802h-.78v-.786h-.801v.785h-.78v.802h.78v.787h.001z' fill='url(#iconPlusDealBox_26x26_navy_svg__99olz4tqla)'/><path d='M9.8 14.463h4.761v.482h-4.76v2.307h6.236v-.935h-4.76v-.479h4.76v-2.267H9.802v.893-.001z' fill='#fff'/><path d='M15.587 11.395V8.667h-1.143v2.795h1.143v-.069.002z' fill='url(#iconPlusDealBox_26x26_navy_svg__49bvd0og8b)'/><path d='M11.24 11.395V8.667h-1.143v2.795h1.144v-.069.002z' fill='url(#iconPlusDealBox_26x26_navy_svg__depssun6ec)'/><defs><linearGradient id='iconPlusDealBox_26x26_navy_svg__99olz4tqla' x1='11.739' y1='8.878' x2='11.739' y2='11.252' gradientUnits='userSpaceOnUse'><stop stop-color='#58DAFC'/><stop offset='1' stop-color='#2ED0FA'/></linearGradient><linearGradient id='iconPlusDealBox_26x26_navy_svg__49bvd0og8b' x1='14.444' y1='8.667' x2='14.444' y2='11.462' gradientUnits='userSpaceOnUse'><stop stop-color='#58DAFC'/><stop offset='1' stop-color='#2ED0FA'/></linearGradient><linearGradient id='iconPlusDealBox_26x26_navy_svg__depssun6ec' x1='10.097' y1='8.667' x2='10.097' y2='11.462' gradientUnits='userSpaceOnUse'><stop stop-color='#58DAFC'/><stop offset='1' stop-color='#2ED0FA'/></linearGradient></defs></svg>",
+            "title": "원쁠딜"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#8452C7' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#8452C7'/><path d='M18.071 9.028l1.215 9.784-12.467-.003 1.223-9.784 10.03.003z' stroke='#fff' stroke-width='1.242'/><path d='M10.7 10.624V7.84a2.352 2.352 0 014.704 0v2.783' stroke='#fff' stroke-width='1.242' stroke-linecap='round'/></svg>",
+            "title": "백화점윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#6455D6' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#6455D6'/><path d='M11.327 19.907v-.002l-5.421-5.419a.29.29 0 010-.41l7.049-7.05a.81.81 0 01.576-.214l4.787.36c.162.012.31.161.321.32L19 12.28a.805.805 0 01-.214.576l-7.05 7.05a.286.286 0 01-.204.084.285.285 0 01-.204-.083z' stroke='#fff' stroke-width='1.242'/><path fill-rule='evenodd' clip-rule='evenodd' d='M15.033 9.388a.986.986 0 111.393 1.394.986.986 0 01-1.393-1.395' fill='#fff'/></svg>",
+            "title": "아울렛윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#B950DF' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#B950DF'/><path d='M11.147 12.145l-4.745 3.642s-.335.224-.335.665c0 .456.37.826.826.826l12.213.005a.827.827 0 00.492-1.491l-6.597-5.11 1.192-.922s.317-.22.318-.65v-.993a1.509 1.509 0 10-3.017 0v.28' stroke='#fff' stroke-width='1.242' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "title": "스타일윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#5F5F64' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#5F5F64'/><path d='M14.995 7.022v-1.45a.248.248 0 00-.248-.248h-3.523a.248.248 0 00-.247.247v1.45M13 19.342h5.515c-.106-2.043-.614-3.684-1.575-5.262-.096-.157-.106-.191-.04-.361l1.87-4.742a.248.248 0 00-.157-.327l-2.13-.653m-3.514 11.345H7.453c.106-2.043.615-3.684 1.576-5.262.095-.157.106-.191.04-.361l-1.87-4.742a.248.248 0 01.157-.327l2.13-.653' stroke='#fff' stroke-width='1.156' stroke-linecap='round' stroke-linejoin='round'/><path d='M16.045 7.066a5.292 5.292 0 00-3.079 1.607A5.296 5.296 0 009.89 7.067a5.296 5.296 0 000 3.389 5.28 5.28 0 003.077-1.606 5.282 5.282 0 003.08 1.605 5.294 5.294 0 000-3.388' stroke='#fff' stroke-width='1.156' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "title": "디자이너윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#F446B6' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#F446B6'/><path clip-rule='evenodd' d='M10.983 11.551V7.658a.45.45 0 01.118-.29c.088-.102 2.795-1.924 2.795-1.924.123-.066.31-.18.536-.15.292.038.4.21.441.271.083.133.106.304.106.55v5.436h-3.996z' stroke='#fff' stroke-width='1.156'/><rect x='9.905' y='11.55' width='6.132' height='8.49' rx='0.124' stroke='#fff' stroke-width='1.156'/><path d='M9.905 13.909h6.131' stroke='#fff' stroke-width='1.156'/></svg>",
+            "title": "뷰티윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#D9933A' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#D9933A'/><path clip-rule='evenodd' d='M7.18 10.908c0-.149.068-.29.184-.384l5.48-4.46a.248.248 0 01.312 0l5.48 4.46a.495.495 0 01.183.384v7.927c0 .136-.11.247-.248.247h-3.633a.248.248 0 01-.248-.247v-3.598a.248.248 0 00-.247-.248h-2.886a.248.248 0 00-.247.248v3.598a.248.248 0 01-.248.247H7.43a.248.248 0 01-.248-.247v-7.927z' stroke='#fff' stroke-width='1.242' stroke-linecap='round'/></svg>",
+            "title": "리빙윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#6AC43E' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#6AC43E'/><path clip-rule='evenodd' d='M14.484 19.764c-.254 0-.506-.045-.749-.133a2.644 2.644 0 00-1.778-.001 2.189 2.189 0 01-2.097-.328c-.1-.073-.647-.426-1.354-1.427-.687-.97-1.67-2.585-1.67-4.767A3.6 3.6 0 017.9 10.546a3.599 3.599 0 012.56-1.06c.889 0 1.733.586 2.39 1.162.656-.576 1.501-1.16 2.387-1.16 2 0 3.624 1.626 3.623 3.624 0 2.182-.96 3.794-1.646 4.763-.708 1-1.282 1.356-1.382 1.43a2.18 2.18 0 01-1.346.459h-.001z' stroke='#fff' stroke-width='1.238' stroke-linejoin='round'/><path d='M12.017 6.437s.831 1.678.831 3.66' stroke='#fff' stroke-width='1.238' stroke-linecap='round'/><path clip-rule='evenodd' d='M14.022 8.07c-.125-.636.01-1.148.136-1.418.125-.268.278-.418.335-.468.432-.418.73-.412 1.04-.447.219-.024.612-.047.784-.107.125-.044.279-.141.299-.08.02.061.02.297.02.412 0 .64-.016.744-.168 1.054-.151.31-.268.38-.321.446-.433.419-.827.44-1.135.453a2.495 2.495 0 00-.565.073c-.059.017-.192.055-.273.093-.002 0-.021-.012-.022-.011-.058.039-.109.107-.13 0z' stroke='#fff' stroke-width='1.238'/></svg>",
+            "title": "푸드윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#FAB800' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#FAB800'/><path d='M13.537 17.48a5.4 5.4 0 01-5.394-5.285H18.93a5.402 5.402 0 01-5.393 5.285z' stroke='#fff' stroke-width='1.238'/><circle cx='10.79' cy='18.542' r='1.267' stroke='#fff' stroke-width='1.238'/><circle cx='16.287' cy='18.542' r='1.267' stroke='#fff' stroke-width='1.238'/><path d='M18.93 12.192h-5.282v-5.63c2.849.07 5.22 2.69 5.282 5.63z' stroke='#fff' stroke-width='1.238'/><path d='M5.695 9.013H7.42' stroke='#fff' stroke-width='1.238' stroke-linecap='round'/><path d='M7.42 9.013l.77 3.452' stroke='#fff' stroke-width='1.238'/></svg>",
+            "title": "키즈윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#3682D5' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#3682D5'/><path fill-rule='evenodd' clip-rule='evenodd' d='M10.77 11.285A.93.93 0 109.456 12.6a.93.93 0 001.316-1.315' fill='#fff'/><path d='M15.884 12.894v-1.948m.933 1.014H14.87' stroke='#fff' stroke-width='0.99' stroke-linecap='round' stroke-linejoin='round'/><path clip-rule='evenodd' d='M6.736 11.538l.005.002a3.338 3.338 0 013.242-3.15h6.034a3.338 3.338 0 013.242 3.15l.006-.002.413 4.319h0a1.702 1.702 0 01-1.693 1.868c-.652 0-1.029-.346-1.503-.903h0l-1.225-1.503a1.195 1.195 0 00-1.007-.552h-2.518c-.381 0-.737.182-.961.486-.046.061-1.253 1.569-1.253 1.569h0c-.386.485-.851.903-1.502.903-.94 0-1.702-.762-1.702-1.702 0-.056.422-4.485.422-4.485z' stroke='#fff' stroke-width='1.238' stroke-linecap='round' stroke-linejoin='round'/><path d='M13.04 6.4v1.947' stroke='#fff' stroke-width='1.238' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "title": "플레이윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#80B166' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#80B166'/><path clip-rule='evenodd' d='M6.81 18.426h12.38V9.141H6.81v9.285z' stroke='#fff' stroke-width='1.238' stroke-linecap='round' stroke-linejoin='round'/><path d='M10.56 9.126L13 6.686l2.44 2.44m-8.626 6.672l2.884-2.884a.774.774 0 011.095 0l2.792 2.792 1.674-1.674a.774.774 0 011.095 0l2.777 2.778' stroke='#fff' stroke-width='1.238' stroke-linecap='round' stroke-linejoin='round'/><path fill-rule='evenodd' clip-rule='evenodd' d='M16.578 11.551a.805.805 0 11-1.61 0 .805.805 0 011.61 0' fill='#fff'/></svg>",
+            "title": "아트윈도"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#F03F45' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#F03F45'/><path fill-rule='evenodd' clip-rule='evenodd' d='M7.905 18.095h2.734c.16 0 .314.064.428.177L13 20.206l1.933-1.934a.606.606 0 01.428-.177h2.734v-2.734c0-.16.064-.314.177-.428L20.205 13l-1.933-1.933a.606.606 0 01-.177-.428V7.905H15.36a.606.606 0 01-.428-.177L13 5.795l-1.933 1.933a.606.606 0 01-.428.177H7.905v2.734c0 .16-.064.315-.177.428L5.795 13l1.933 1.933a.606.606 0 01.177.428v2.734zM13 21.667a.604.604 0 01-.428-.178l-2.184-2.183H7.3a.605.605 0 01-.606-.606v-3.088l-2.183-2.184a.605.605 0 010-.856l2.183-2.184V7.3c0-.334.272-.605.606-.605h3.088l2.184-2.184a.605.605 0 01.856 0l2.184 2.184H18.7c.335 0 .606.27.606.605v3.088l2.183 2.184a.605.605 0 010 .856l-2.183 2.184V18.7a.605.605 0 01-.606.606h-3.088l-2.184 2.183a.603.603 0 01-.428.178z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M15.288 14.184a.782.782 0 10-1.106 1.105.782.782 0 001.106-1.105m-4.602-3.495a.782.782 0 101.106 1.106.782.782 0 00-1.106-1.106m.917 4.317a.605.605 0 01-.428-1.033l2.667-2.668a.606.606 0 01.856.856l-2.667 2.667a.603.603 0 01-.428.178' fill='#fff'/></svg>",
+            "title": "핫딜"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#fff' d='M0 0h26v26H0z'/><path d='M3 13C3 4.765 4.765 3 13 3s10 1.765 10 10-1.765 10-10 10S3 21.235 3 13z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M19.668 9.84H6.332c-.306 0-.554.233-.554.52v9.794c0 .287.248.52.554.52h13.336c.306 0 .554-.233.554-.52V10.36c0-.287-.248-.52-.554-.52z' fill='#03C75A'/><path fill-rule='evenodd' clip-rule='evenodd' d='M10.292 20.674h5.416V9.84h-5.416v10.834z' fill='#1E55FF'/><path fill-rule='evenodd' clip-rule='evenodd' d='M17.806 7.807l-2.192-2.313a.522.522 0 00-.767 0L13 7.444l-1.847-1.95a.524.524 0 00-.768 0l-2.19 2.314a.595.595 0 000 .81l1.847 1.95 2.575 2.716a.523.523 0 00.768 0l2.575-2.717 1.847-1.95a.593.593 0 000-.809' fill='#FF553C'/></svg>",
+            "title": "선물샵"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#732938' d='M0 0h26v26H0z'/><path clip-rule='evenodd' d='M18.849 9.913l-1.76-1.76-5.276 1.26-1.425-1.424a2.955 2.955 0 00-3.033-.634 2.954 2.954 0 00.635 3.033l1.423 1.425-1.26 5.277 1.76 1.76 2.334-4.203 1.706 1.705-.14 1.534 1.45 1.45 1.395-2.677 2.656-1.376-1.449-1.45-1.502.132-1.717-1.717 4.203-2.335z' stroke='#fff' stroke-width='1.242' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+            "title": "해외직구"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#60BAFF' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#60BAFF'/><path fill-rule='evenodd' clip-rule='evenodd' d='M7.67 9.806l4.201 4.313 3.701-3.786-4.214-4.214L7.67 9.806zm4.2 5.65a.55.55 0 01-.393-.166l-4.973-5.105a.55.55 0 01.005-.773l4.46-4.46a.55.55 0 01.778 0l4.987 4.987a.55.55 0 01.005.774l-4.475 4.578a.55.55 0 01-.393.165z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M12.213 8.881a3.028 3.028 0 106.056 0 3.028 3.028 0 00-6.056 0z' fill='#60BAFF'/><path fill-rule='evenodd' clip-rule='evenodd' d='M15.133 6.877a2.481 2.481 0 00-2.478 2.479 2.481 2.481 0 002.479 2.478 2.481 2.481 0 002.478-2.478 2.481 2.481 0 00-2.478-2.479m0 6.057a3.582 3.582 0 01-3.579-3.578 3.582 3.582 0 013.578-3.578 3.582 3.582 0 013.578 3.578 3.582 3.582 0 01-3.578 3.578' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M6.261 18.866h13.47v-9.76H6.261v9.76z' fill='#60BAFF'/><path fill-rule='evenodd' clip-rule='evenodd' d='M6.816 18.31h12.36V9.66H6.816v8.649zm12.915 1.111H6.261a.555.555 0 01-.556-.555v-9.76c0-.306.25-.555.556-.555h13.47c.307 0 .555.249.555.555v9.76a.555.555 0 01-.555.555z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M12.996 13.75c-1.44 0-2.612-1.11-2.612-2.473v-.887h1.1v.887c0 .757.678 1.373 1.512 1.373s1.512-.616 1.512-1.373v-.887h1.1v.887c0 1.364-1.172 2.473-2.612 2.473' fill='#fff'/></svg>",
+            "title": "기획전"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#00D100' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#00D100'/><path fill-rule='evenodd' clip-rule='evenodd' d='M9.117 7.994l-.007 4.863a3.862 3.862 0 001.135 2.75 3.862 3.862 0 002.748 1.143h.005a3.89 3.89 0 003.884-3.883l.007-4.863-7.772-.01zm3.88 9.815h-.006a4.914 4.914 0 01-3.496-1.454 4.915 4.915 0 01-1.445-3.5l.008-5.393a.53.53 0 01.53-.529l8.832.012a.53.53 0 01.53.53l-.008 5.393a4.952 4.952 0 01-4.944 4.941z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M12.987 20.657a.53.53 0 01-.53-.53l.003-2.65a.53.53 0 01.53-.53h.001a.53.53 0 01.53.531l-.004 2.65a.53.53 0 01-.53.53' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M14.974 20.79l-3.975-.005a.53.53 0 010-1.06H11l3.975.005a.53.53 0 01-.001 1.06m3.009-6.794h-.446a.53.53 0 01.001-1.06h.442c1.013 0 1.9-.837 1.902-1.794l.002-1.61-2.34-.002a.53.53 0 010-1.06l2.871.004a.53.53 0 01.53.53l-.003 2.14c-.003 1.546-1.357 2.852-2.96 2.852m-9.529-.013H8.01c-1.604-.002-2.957-1.312-2.955-2.86l.002-2.14a.53.53 0 01.53-.529h.001l2.87.004a.53.53 0 010 1.06h-.001l-2.34-.003-.003 1.609c0 .957.886 1.797 1.897 1.799h.441a.53.53 0 010 1.06' fill='#fff'/></svg>",
+            "title": "BEST"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#fff' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M22.663 6.217l.09.008a.509.509 0 01.421.5v11.067l-.009.094a.51.51 0 01-.534.411l-13.677-.825-3.123 2.29-.043.02a.1.1 0 01-.084-.022.102.102 0 01-.036-.08v-2.404l-2.361-.142-.099-.016a.508.508 0 01-.382-.49V7.889l.01-.097a.51.51 0 01.47-.407l19.325-1.164c.012-.004.02-.004.032-.004zM6.303 9.61H5.087v5.652h3.391v-1.19H6.303V9.608zm4.436 0H9.61v5.652h1.13V9.609zm10.174 0h-3.391v5.652h3.391v-1.19h-2.238v-1.08h1.872v-1.19h-1.873V10.8h2.24V9.61zm-7.782 0H11.87l1.54 5.652h1.443l1.538-5.652H15.13l-1 4.22-.999-4.22z' fill='#F3361E'/></svg>",
+            "title": "쇼핑라이브"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#3F3F3F' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#3F3F3F'/><path fill-rule='evenodd' clip-rule='evenodd' d='M13.55 17.64h.814l.136-.133v-.934l-3.255-8.134-.135-.133H9.89l-.136.133L6.5 16.573v.934l.135.133h.813l.136-.133.813-2 .272-.134h3.661l.271.134.814 2 .135.133zm-3.12-7.334h.137v.001l1.492 3.732-.136.135H9.075l-.135-.135 1.49-3.733zm7.487 1.11l.138.135v5.955l-.138.134h-1.113l-.14-.134v-4.883h-2.026l-.138-.133v-.938l.138-.134h3.279v-.002zm.139-2.97l-.141-.14h-1.497l-.14.14v1.497l.14.14h1.497l.14-.14V8.446z' fill='#fff'/></svg>",
+            "titleSVG": "<svg width='54' height='11' viewBox='0 0 54 11' fill='none' class='allService_icon_aitems__1nwNy'><path fill-rule='evenodd' clip-rule='evenodd' d='M5.325 2.361h.15L7.13 6.435l-.15.146H3.82l-.15-.146 1.654-4.074zm3.459 8.003h.902l.15-.146V9.2L6.227.324 6.077.18H4.724l-.15.145L.963 9.2v1.018l.15.146h.903l.15-.146.903-2.182.3-.146h4.06l.301.146.903 2.182.15.146zM9.98 3.816h3.408l.144.141v6.266l-.144.14h-1.157l-.144-.14V5.085H9.98l-.145-.141v-.987l.145-.14zM23 1.488h-3.05l-.145.146v8.584l-.145.146h-1.162l-.145-.146V1.634l-.145-.146h-3.05l-.145-.145V.324l.145-.145H23l.146.145v1.019L23 1.488zm1.766 8.876h6.37l.142-.146V9.2l-.141-.146H26.18l-.142-.145v-2.91l.142-.146h4.671l.142-.145V4.689l-.142-.145H26.18l-.142-.146V1.634l.142-.146h4.955l.141-.145V.324l-.14-.144h-6.371l-.142.145v9.894l.142.146zm18.93 0H42.48l-.152-.146V3.234h-.152l-3.038 6.984-.152.146h-1.367l-.152-.146-3.039-6.984h-.152v6.984l-.151.146h-1.216l-.152-.146V.324l.152-.145h1.671l.152.145 3.494 8.148h.152L41.871.324l.152-.145h1.671l.152.145v9.894l-.152.146zm1.63-3.254c0 2.122 1.626 3.254 4.14 3.254 2.81 0 3.993-1.273 3.993-2.83 0-1.98-1.479-2.687-3.55-2.97-2.07-.283-2.809-.566-2.809-1.698 0-.848.74-1.414 2.07-1.414 1.923 0 2.514.566 2.514 1.697l.148.142h1.183l.148-.142c0-2.122-1.627-2.97-3.845-2.97-2.661 0-3.696 1.414-3.696 2.687 0 1.698 1.33 2.547 3.4 2.83 2.07.282 2.958.565 2.958 1.839 0 1.131-1.035 1.556-2.366 1.556-1.774 0-2.81-.566-2.81-1.98l-.147-.142h-1.183l-.148.141zM13.358.179H11.49l-.175.172v1.838l.175.172h1.868l.175-.172V.35l-.175-.172z' fill='#444'/></svg>"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='url(#iconTopTopBox_26x26_pink_svg__vz755lsbqa)' d='M0 0h26v26H0z'/><path fill-rule='evenodd' clip-rule='evenodd' d='M9.536 9.455a31.63 31.63 0 011.408-3.035l.004-.003.142.023c1.313.26 1.914.297 2.155.295.171 0 .403-.083.507-.268l.026-.044c.015-.024.073-.13.172-.314a.136.136 0 00-.003-.138.124.124 0 00-.12-.058 5.178 5.178 0 01-.101.012c-.355.038-1.253-.046-2.616-.4-2.883-.753-4.484-.609-5.529.502-.385.41-.549 1.027-.428 1.61.064.304.271.702.572.857a.504.504 0 00.474.007c.07-.033.09-.086.065-.166-.055-.174-.206-.777.079-1.273.234-.408.702-.681 1.391-.81.5-.094 1.242-.101 2.042-.02l.01.001-.004.01-.148.32c-.54 1.154-1.355 2.9-1.651 4.124-.142.582-.114 1.01.078 1.269.126.167.323.258.57.258l.387.002c.046 0 .088-.02.116-.057a.16.16 0 00.028-.13c-.06-.269-.12-1.314.374-2.573' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M20.093 17.536l-.002-.002a6.104 6.104 0 01-.092-.132.053.053 0 00-.035-.022.043.043 0 00-.036.018c-.376.452-1.063.928-1.673 1.155l-.026.01.018-.023a4.7 4.7 0 00.941-2.244c.048-.37.057-.89-.165-1.265-.18-.306-.485-.466-.908-.473a.876.876 0 00-.247.037l-.008.002-.014.003a1.11 1.11 0 00-.344.176l-.03.027.01-.03a.119.119 0 00-.003-.089.108.108 0 00-.067-.055l-.461-.127a.399.399 0 00-.472.245c-.48 1.214-2.291 5.907-2.368 6.429a.603.603 0 00.13.468.56.56 0 00.433.205h.277a.09.09 0 00.09-.064 69.29 69.29 0 01.85-2.565l.004-.011.009.007c.215.138.465.211.72.207.349.033.942-.013 1.561-.246a4.01 4.01 0 001.907-1.481.142.142 0 00.001-.159m-2.304-.273c-.642 1.474-1.073 1.436-1.332 1.415a.297.297 0 01-.082-.023.243.243 0 01-.116-.1c-.06-.097-.057-.244.01-.434l.247-.698c.149-.424.318-.904.454-1.283a.91.91 0 01.076-.16c.235-.394.46-.629.671-.7a.334.334 0 01.117-.022h.002c.052 0 .1.014.144.04l.006.003c.125.074.192.277.185.553-.01.361-.14.848-.382 1.41m.019-9.32c-.182-.304-.488-.464-.91-.473a1.026 1.026 0 00-.247.036l-.009.004c-.129.036-.25.098-.357.178l-.03.028.011-.03a.115.115 0 00-.004-.088.103.103 0 00-.067-.057l-.46-.125a.4.4 0 00-.472.244c-.48 1.214-2.292 5.908-2.368 6.43a.608.608 0 00.13.466c.107.13.265.206.435.207h.274a.095.095 0 00.09-.065c.266-.861.55-1.716.851-2.565l.004-.01.008.006c.2.136.448.207.72.207a1.83 1.83 0 001.077-.353c.433-.309.813-.818 1.132-1.514a4.53 4.53 0 00.357-1.259c.047-.373.056-.891-.165-1.266m-1.235 2.233c-.642 1.474-1.073 1.436-1.331 1.415a.284.284 0 01-.084-.023.243.243 0 01-.116-.1c-.06-.097-.056-.244.012-.433l.246-.697c.149-.424.317-.906.454-1.286a.952.952 0 01.076-.16c.235-.393.461-.627.67-.7a.38.38 0 01.117-.02h.002c.052 0 .101.014.146.038l.004.004c.127.074.193.276.185.552-.01.363-.14.85-.381 1.41m-3.375-2.56c-.565-.242-1.113-.187-1.626.164-.458.314-.866.854-1.18 1.56-.366.825-.459 1.58-.263 2.129.117.328.328.566.629.711l.031.012c.566.242 1.112.186 1.626-.164.46-.315.867-.853 1.18-1.56.365-.824.46-1.58.264-2.128a1.192 1.192 0 00-.66-.725m-.648 2.56c-.449 1.05-.816 1.363-1.043 1.441a.342.342 0 01-.118.021c-.05 0-.1-.012-.145-.04l-.011-.005c-.12-.078-.185-.277-.178-.55.009-.36.14-.847.38-1.41.449-1.05.816-1.362 1.043-1.44a.305.305 0 01.263.018l.006.004c.126.074.192.276.185.552-.01.362-.14.849-.382 1.41' fill='#fff'/><path fill-rule='evenodd' clip-rule='evenodd' d='M14.416 14.704c-.565-.241-1.113-.186-1.626.164-.458.315-.866.854-1.18 1.562-.317.715-.43 1.373-.324 1.9v.006l-.005.003c-.306.176-.761.377-1.194.335-.171-.018-.295-.09-.367-.213-.079-.136-.17-.476.12-1.235.198-.542.444-1.201.675-1.807l.001-.005h.006c.38-.009.76-.02 1.14-.035a.392.392 0 00.35-.258l.143-.378a.09.09 0 00-.01-.081.082.082 0 00-.068-.037c-.415-.004-.83-.004-1.245 0h-.013l.004-.012c.177-.46.359-.917.548-1.372a.13.13 0 00-.002-.11.126.126 0 00-.082-.07l-.544-.149a.501.501 0 00-.596.3c-.168.396-.36.876-.573 1.425l-.002.005h-.005c-.213.007-.394.014-.536.023a.388.388 0 00-.333.251l-.164.433a.08.08 0 00.01.077.075.075 0 00.065.035l.655-.015-.003.01c-.316.836-.546 1.474-.63 1.709-.252.71-.247 1.352.018 1.757.213.325.582.497 1.068.497.649 0 1.173-.208 1.7-.676l.008-.007.005.008c.124.236.307.41.545.524l.032.014c.565.24 1.112.185 1.624-.165.462-.314.87-.854 1.182-1.561.365-.825.46-1.58.265-2.129a1.2 1.2 0 00-.63-.708l-.032-.015m-.646 2.56c-.449 1.05-.816 1.364-1.044 1.44a.373.373 0 01-.119.022.287.287 0 01-.11-.023.242.242 0 01-.036-.018l-.007-.004c-.122-.075-.188-.276-.181-.552.009-.36.141-.848.382-1.408.449-1.05.814-1.363 1.043-1.44a.382.382 0 01.116-.021c.053 0 .102.012.146.04l.006.003c.124.073.192.276.184.551-.008.363-.14.849-.38 1.41' fill='#fff'/><defs><linearGradient id='iconTopTopBox_26x26_pink_svg__vz755lsbqa' x1='-9.155' y1='9.155' x2='9.155' y2='27.465' gradientUnits='userSpaceOnUse'><stop stop-color='#FF48CF'/><stop offset='1' stop-color='#FF4646'/></linearGradient></defs></svg>",
+            "titleSVG": "<svg width='46' height='19' viewBox='0 0 46 19' fill='none' class='allService_icon_toptop__2OWun'><path d='M11.333 2.062l-.35.704C9.812 5.106 8.803 7.13 8.138 8.88c-.602 1.588-.43 2.487-.347 2.92v.002l.023.126c.023.136.05.305-.06.43-.088.1-.237.146-.47.146l-.467-.007c-.802-.013-1.471-.66-1.463-1.411.021-1.63 1.17-4.006 2.758-7.295l.004-.009c.29-.598.59-1.222.9-1.873-1.612-.033-3.145.1-4.13.357-1.293.338-2.144.892-2.526 1.652-.452.893-.13 1.841.03 2.207.07.162.038.31-.081.377a1.062 1.062 0 01-.922.063c-.609-.23-1.069-.908-1.24-1.44-.325-1.02-.108-2.144.57-2.937C2.541.047 5.587-.47 11.231.407c2.66.413 4.391.415 5.064.291.221-.04.336.046.384.102a.31.31 0 01.043.32 6.322 6.322 0 01-.276.558c-.17.345-.607.536-.94.565-.465.041-1.622.07-4.174-.18z' fill='#333'/><path fill-rule='evenodd' clip-rule='evenodd' d='M20.864 5.135c.941-.288 1.799-.13 2.248.095 2.244 1.104 1.231 3.833.692 4.955-.551 1.16-1.232 2.023-2.025 2.568a3.511 3.511 0 01-.557.313c-1.195.57-2.297.331-2.759.1l-.023-.011a.708.708 0 00-.035-.018 65.142 65.142 0 00-1.681 4.293.35.35 0 01-.339.229h-.392c-.318 0-.617-.134-.825-.365a1.007 1.007 0 01-.246-.823C15.08 15.457 18.9 6.31 19.233 5.584a.795.795 0 01.72-.449h.91zm.956 4.53c.153-.326.285-.653.414-1.028.337-1.174.316-2.171-.047-2.37a.548.548 0 00-.268-.068.713.713 0 00-.216.035c-.416.13-1.09.67-1.947 2.497-.152.323-.284.65-.415 1.032-.273.903-.52 1.877-.282 2.214.06.083.148.127.278.137.483.04 1.285.105 2.483-2.45zm15.583 1.029l.017-.03c.093-.165.184-.336.273-.518.55-1.122 1.584-3.85-.705-4.954-.486-.237-1.405-.4-2.398-.075-1.24.406-2.265 1.434-3.05 3.056-.613 1.266-.828 2.404-.624 3.298-.587.299-1.406.626-2.148.595-.328-.014-.554-.118-.691-.319-.268-.393-.184-1.187.232-2.178.314-.78.79-1.947 1.287-3.143a87.894 87.894 0 002.366-.088.55.55 0 00.479-.335l.24-.605a.26.26 0 00-.031-.251.29.29 0 00-.231-.117 182.44 182.44 0 00-2.235-.003 68.96 68.96 0 011.03-2.326.273.273 0 00-.02-.272.312.312 0 00-.26-.134h-1.248a1.075 1.075 0 00-.973.594s-.798 1.666-1.015 2.177c-.57.018-.997.043-1.267.072a.42.42 0 00-.345.251l-.328.792a.235.235 0 00.028.232.242.242 0 00.214.102l1.122-.025-.102.266-.001.004c-.244.638-.8 2.092-1.049 2.693-.498 1.194-.485 2.341.036 3.068.408.57 1.118.87 2.055.87 1.224 0 2.286-.342 3.242-1.047.233.324.55.586.942.782.821.4 3.347.744 5.158-2.432zm-1.312-2.097a9.895 9.895 0 01-.421 1.028c-.874 1.827-1.562 2.365-1.986 2.496a.621.621 0 01-.494-.032c-.371-.2-.39-1.197-.05-2.366.135-.381.269-.709.424-1.031.874-1.827 1.563-2.365 1.986-2.496a.753.753 0 01.22-.036.57.57 0 01.273.068c.37.2.391 1.195.048 2.369zM16.06 10.66l-.108-.074.116.06c.094-.166.187-.339.277-.523.558-1.134 1.606-3.892-.715-5.007-.494-.24-1.426-.404-2.433-.076-1.257.41-2.298 1.45-3.094 3.088-1.159 2.387-.898 4.21.716 5.007.27.13.719.256 1.268.256 1.147 0 2.723-.547 3.973-2.73zm-1.768-1.063c-.887 1.846-1.585 2.39-2.014 2.523a.636.636 0 01-.5-.032c-.377-.202-.398-1.211-.051-2.393.134-.381.271-.713.429-1.04.887-1.848 1.585-2.392 2.015-2.525a.763.763 0 01.224-.036c.099 0 .19.023.275.069.378.201.398 1.208.05 2.395a10.21 10.21 0 01-.428 1.04zm31.584.408l.083.13v.002a.278.278 0 010 .29c-1.69 2.801-4.366 3.04-5.442 3.014a3.467 3.467 0 01-.473-.047l-.032-.13-.02.121-.07-.012a2.435 2.435 0 01-.657-.206l-.056-.032a66.905 66.905 0 00-1.616 4.295.335.335 0 01-.324.229h-.376a1.035 1.035 0 01-1.028-1.188c.152-1.014 3.819-10.16 4.138-10.887a.762.762 0 01.691-.449h.874c.903-.288 1.727-.13 2.16.096 2.153 1.103 1.181 3.832.664 4.954a9.227 9.227 0 01-.251.506l-.067.12c-.065.12-.133.236-.201.347l-.064.1a5.639 5.639 0 01-.205.302c.749-.411 1.471-1.002 1.967-1.616a.163.163 0 01.273.01l.032.051zm-3.39-.34a9.91 9.91 0 00.399-1.031c.321-1.17.303-2.168-.047-2.367a.509.509 0 00-.256-.069.674.674 0 00-.208.036c-.399.13-1.046.67-1.87 2.497a10.34 10.34 0 00-.397 1.032c-.262.903-.5 1.877-.271 2.214.057.083.141.126.267.137.463.04 1.233.105 2.384-2.45z' fill='#333'/></svg>"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='url(#iconMarketBox_26x26_cyan_svg__92mhfmnd3a)' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='url(#iconMarketBox_26x26_cyan_svg__hmdphwyl2b)'/><path fill-rule='evenodd' clip-rule='evenodd' d='M14.027 9.85a1.028 1.028 0 11-2.056.003 1.028 1.028 0 012.056-.002' fill='#fff'/><path clip-rule='evenodd' d='M15.992 8.88a3.084 3.084 0 00-5.984 0l-.536 2.127a.278.278 0 01-.268.209h-2.47a.238.238 0 00-.232.282l1.08 5.668c.18.931.993 1.606 1.939 1.606h6.958c.946 0 1.76-.675 1.939-1.606l1.082-5.67a.239.239 0 00-.233-.28h-2.47a.276.276 0 01-.267-.21l-.538-2.127v.001z' stroke='#fff' stroke-width='1.242' stroke-linecap='round' stroke-linejoin='round'/><defs><linearGradient id='iconMarketBox_26x26_cyan_svg__92mhfmnd3a' x1='-9.155' y1='9.155' x2='9.155' y2='27.465' gradientUnits='userSpaceOnUse'><stop stop-color='#03CF5D'/><stop offset='1' stop-color='#00D4C4'/></linearGradient><linearGradient id='iconMarketBox_26x26_cyan_svg__hmdphwyl2b' x1='-7.451' y1='9.451' x2='9.451' y2='26.352' gradientUnits='userSpaceOnUse'><stop stop-color='#03CF5D'/><stop offset='1' stop-color='#00D4C4'/></linearGradient></defs></svg>",
+            "title": "장보기"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#121212' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#121212'/><path fill-rule='evenodd' clip-rule='evenodd' d='M4.48 9.276l3.785 3.467 3.757-3.475a.087.087 0 01.146.064v7.221h-1.773v-3.489l-2.148 2.074L6.1 13.065v3.489H4.333V9.34c0-.075.09-.115.146-.064zm16.107 6.06a1.262 1.262 0 112.524 0 1.262 1.262 0 01-2.524 0zm-4.041-2.683h-1.23v-1.661h1.23c.643 0 .987.231.987.83 0 .6-.344.83-.987.83zm1.44 1.088l-.011.003 1.97 2.81h-2.158l-1.67-2.603h-.8v2.602h-1.783V9.432h3.471c1.355 0 2.383.733 2.383 2.26 0 .988-.533 1.833-1.403 2.05z' fill='#fff'/></svg>",
+            "title": "MR."
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#121212' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#121212'/><path d='M5.557 15.87V8.816H4.333v8.191h4.231v-1.138H5.557zm16.11 1.132l-1.438-2.765h-1.38l2.818-5.421h-1.38l-1.438 2.765-1.437-2.765h-1.38l2.127 4.093-2.127 4.093h1.38l1.409-2.713 1.408 2.713h1.438zm-9.428.138a2.571 2.571 0 01-2.57-2.57V8.81h1.223v5.759c0 .742.604 1.347 1.347 1.347.742 0 1.346-.605 1.346-1.347V8.81h1.224v5.759a2.575 2.575 0 01-2.57 2.57z' fill='#fff'/></svg>",
+            "title": "럭셔리"
+        },
+        {
+            "svg": "<svg width='26' height='26' viewBox='0 0 26 26' fill='none' class='allService_icon__2r8xw'><path fill='#00D100' d='M0 0h26v26H0z'/><path d='M1 13C1 3.118 3.118 1 13 1s12 2.118 12 12-2.118 12-12 12S1 22.882 1 13z' fill='#00D100'/><path d='M12.066 19.5H7.35c-.55 0-.995-.404-.995-.902 0-.024.411-3.07 1.235-9.135.06-.455.485-.796.989-.796h8.96c.506 0 .93.343.989.798l.394 2.452' stroke='#fff' stroke-width='1.3' stroke-linecap='round'/><path d='M10.946 8.83V7.463c0-1.13 1.018-2.047 2.275-2.047 1.256 0 2.275.916 2.275 2.047V8.83' stroke='#fff' stroke-width='1.3'/><path d='M17.987 18.092l2.167 2.166' stroke='#fff' stroke-width='1.3' stroke-linecap='round'/><path d='M16.254 18.85a2.492 2.492 0 100-4.983 2.492 2.492 0 000 4.983z' stroke='#fff' stroke-width='1.3'/></svg>",
+            "title": "몰 전체보기"
+        }
+    ]
+
+}

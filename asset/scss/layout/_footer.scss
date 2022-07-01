@@ -1,0 +1,184 @@
+.law-area {
+    position: relative;
+    border-top: 1px solid #e1e4e7;
+    border-bottom: 1px solid #e1e4e7;
+    background-color: #fafafa;
+    em {
+        display: block;
+        padding: 0 14px;
+        border-bottom: 1px solid #ededed;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #000000;
+    }
+    p {
+        padding: 12px 15px;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -1px;
+        color: #7e8288;
+    }
+    a {
+        display: block;
+        position: absolute;
+        right: 0; top: 0;
+        padding: 0 15px;
+        font-size: 13px;
+        line-height: 36px;
+        letter-spacing: -0.5px;
+        color: #555555;
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 7px; height: 11px;
+            margin-left: 6px;
+            background-size: 286px 267px;
+            background-position: -270px -229px;
+        }
+    }
+}
+.main-naver {
+    position: relative;
+    display: block;
+    height: 42px;
+    padding: 0 13px 0 53px;
+    margin: 15px auto 10px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    font-size: 15px;
+    line-height: 41px;
+    white-space: nowrap;
+    span {
+        padding: 0 5px;
+        color: #00c73c;
+    }
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 7px; left: 11px;
+        width: 20px; height: 22px;
+        background-position: 0 0;
+        background-size: 64px 43px;
+        background-image: url(https://s.pstatic.net/static/www/m/2018/sp_home_v180131a.png);
+        background-repeat: no-repeat;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0; left: 40px;
+        width: 1px; height: 42px;
+        border-left: 1px solid #dcdcdc;
+    }
+}
+.top-wrap {
+    padding: 0 7px;
+    margin-top: 4px;
+    border-radius: 1px;
+}
+.btn-top {
+    width: 100%;
+    border: 1px solid #e1e4e7;
+    font-size: 13px;
+    line-height: 43px;
+    background-color: #ffffff;
+    color: #555555;
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 8px; height: 5px;
+        margin: 19px 0 0 4px;
+        background-size: 286px 267px;
+        background-position: -260px -240px;
+        vertical-align: top;
+    }
+}
+.link-footer {
+    display: flex;
+    width: 100%;
+    padding: 0 6px;
+    margin-top: 4px;
+    border-radius: 1px;
+    a {
+        width: 50%;
+        border: 1px solid #e1e4e7;
+        background-color: #f7f7f9;
+        font-size: 13px;
+        line-height: 43px;
+        color: #555555;
+        text-align: center;
+        &.link-login {
+            border-right: 0;
+        }
+        &.total-service {
+            position: relative;
+            border-left: 0;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 15px; left: 0;
+                width: 1px; height: 13px;
+                background-color: #ebebeb;
+            }
+        }
+    }
+}
+.info-area {
+    margin-top: 17px;
+    text-align: center;
+    button {
+        margin: 0 0 1px 12px;
+        font-family: AppleSDGothicNeo, sans-serif;
+        font-size: 13px;
+        line-height: 16px;
+        color: #555555;
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 8px; height: 5px;
+            margin: 5px 0 0 3px;
+            background-size: 286px 267px;
+            background-position: -250px -240px;
+            vertical-align: top;
+        }
+    }
+}
+.link-wrap {
+    max-width: 295px;
+    margin: 6px auto 0;
+    a {
+        display: inline-block;
+        padding: 0 8px;
+        font-family: AppleSDGothicNeo,sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #888888;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        a:last-child {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 5px; left: 0;
+                width: 1px; height: 11px;
+                background-color: #c9cccf;
+            }
+        }
+        &:last-child a:last-child::before{
+            content: none;
+        }
+    }
+}
+.footer-logo {
+    display: block;
+    width: 68px; height: 13px;
+    margin: 15px auto 30px;
+    background-size: 286px 267px;
+    background-position: -53px -141px;
+}
