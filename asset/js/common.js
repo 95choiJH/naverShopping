@@ -1,5 +1,5 @@
 
-fetch('asset/json/main.json')
+fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
 .then((response) => {
   return response.json();
 })
