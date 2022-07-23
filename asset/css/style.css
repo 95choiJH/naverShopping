@@ -289,7 +289,7 @@ body {
 
 .ic-logo::after, .ic-shopping::after, .voice::after, .img-search::after,
 .law-area a::after, .btn-top::after, .footer-logo, .info-area button:after,
-.gnb-area i, .img-title {
+.gnb-area i, .img-menu {
   background-image: url(../images/sprite_main01.png);
   background-repeat: no-repeat;
 }
@@ -435,23 +435,30 @@ body {
 }
 .gnb-area .gnb-wrap {
   display: flex;
-  gap: 7px;
   flex-wrap: nowrap;
   height: 100%;
   padding-left: 13px;
-  overflow: hidden;
+  overflow-x: auto;
+}
+.gnb-area .gnb-wrap::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 .gnb-area li {
+  position: relative;
   flex-shrink: 0;
-  display: inline-block;
+  display: flex;
   height: 100%;
+  padding: 0 3px 0 4px;
 }
 .gnb-area li svg {
   height: 100%;
 }
 .gnb-area li a {
   display: flex;
+  align-items: center;
   height: 100%;
+  padding: 0 5px;
 }
 .gnb-area li a i {
   display: inline-block;
@@ -459,23 +466,23 @@ body {
   background-position: -270px -175px;
   width: 14px;
   height: 8px;
-  margin-top: 12px;
+  margin-top: -12px;
   margin-left: 3px;
 }
-.gnb-area li a.img-title {
+.gnb-area li a .img-menu {
   background-size: 286px 267px;
   background-repeat: no-repeat;
 }
 .gnb-area li:first-child a {
-  color: #00c73c;
   font-weight: 700;
+  color: #00c73c;
 }
-.gnb-area li:first-child a::after {
+.gnb-area li:first-child::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -2px;
+  bottom: 0;
   height: 2px;
   background-color: #00c73c;
 }
@@ -483,7 +490,6 @@ body {
   position: relative;
   display: inline-block;
   height: 40px;
-  padding: 0 5px;
   font-size: 16px;
   color: #000000;
   line-height: 42px;
@@ -911,7 +917,10 @@ body {
   text-align: center;
 }
 .sc-liveCalendar .time-box strong {
+  display: block;
+  margin-bottom: 7px;
   font-size: 13px;
+  line-height: 17px;
 }
 .sc-liveCalendar .txt-wrap {
   padding: 0 6px 0 15px;
@@ -930,8 +939,7 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  /* autoprefixer: off */
+  -webkit-box-orient: vertical; /* autoprefixer: off */
 }
 .sc-liveCalendar .txt-wrap .txtTop-box .desc {
   line-height: 22px;
@@ -1533,8 +1541,7 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  /* autoprefixer: off */
+  -webkit-box-orient: vertical; /* autoprefixer: off */
 }
 .sc-rank .content-best {
   border-top: 1px solid #eeeff1;
@@ -1631,8 +1638,7 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  /* autoprefixer: off */
+  -webkit-box-orient: vertical; /* autoprefixer: off */
 }
 .sc-rank .content-best .txt-box em {
   font-weight: 700;
@@ -1837,8 +1843,7 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  /* autoprefixer: off */
+  -webkit-box-orient: vertical; /* autoprefixer: off */
 }
 .sc-hotDeal .txt-wrap em {
   display: flex;

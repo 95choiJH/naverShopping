@@ -6,90 +6,50 @@ fetch('asset/json/main.json')
 .then((data) => {
   
   data.gnbMenu.forEach(function(el) {
-    let li = document.createElement('li')
-    let a = document.createElement('a');
-
-    a.setAttribute("href", "");
-
-    if (el.title != null) {
-      a.append(el.title);
-    } else {
-      let blind = document.createElement('span')
-      blind.classList.add('blind');
-      a.append(blind);
-      if (el.svg != null) {
-        a.innerHTML = el.svg;
-        blind.append(el.blind);
-      } else {
-        a.classList.add('img-title');
-        a.style.width = el.width;
-        a.style.height = el.height;
-        a.style.backgroundPosition = el.position;
-        blind.append(el.blind);
-      }
-    }
     
-    if (el.beta != null) {
-      let beta = document.createElement('i');
-      a.append(beta);
-    }
+    html = '';
 
-    li.append(a);
-    $('.gnb-wrap').append(li);
+    el.title != null ? html += `<li><a href="">${el.title}` : el.svg != null ? html += `<li><a href=""><span class="blind">${el.blind}</span>${el.svg}` : html += `<li><a href="" class="img-title"><div class="img-menu" style="width: ${el.width}; height: ${el.height}; background-position: ${el.position};"></div><span class="blind">${el.blind}</span>`    
+    el.beta != null ? html += `<i></i></a></li>` : html += `</a></li>`;
+
+    $('.gnb-wrap').append(html);
+    
   })
 
   data.eventSlide.forEach(function(el){
-    let slideWrap = document.createElement('div');
-    let a = document.createElement('a');
-    let img = document.createElement('img');
-    let txtWrap = document.createElement('div');
-    let title = document.createElement('strong');
-    let desc = document.createElement('span');
+    html = '';
+    html += 
+    `<div class="swiper-slide">
+        <a href="">
+          <img src="${el.src}" alt="${el.title}">
+          <div class="text-wrap">
+            <strong>${el.title}</strong>
+            <span class="desc">${el.desc}</span>
+          </div>
+        </a>
+    </div>`
 
-    slideWrap.classList.add('swiper-slide');
-    a.setAttribute("href", "");
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    txtWrap.classList.add('text-wrap');
-    desc.classList.add('desc');
-
-    slideWrap.append(a);
-    a.append(img);
-    a.append(txtWrap);
-    txtWrap.append(title);
-    txtWrap.append(desc);
-    title.append(el.title);
-    desc.append(el.desc);
-
-    $('.eventSlide .swiper-wrapper').append(slideWrap);
+    $('.eventSlide .swiper-wrapper').append(html);
   });
   data.shopLive.forEach(function(el){
-    let slideWrap = document.createElement('div');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let txtWrap = document.createElement('div');
-    let time = document.createElement('strong');
-    let title = document.createElement('p');
+    html = '';
 
-    slideWrap.classList.add('swiper-slide');
-    a.setAttribute("href", "");
-    imgWrap.classList.add('img-wrap');
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    txtWrap.classList.add('text-wrap');
+    html += 
+    `<div class="swiper-slide">
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">
+        </div>
+        <div class="text-wrap">
+          <strong>${el.time}</strong>
+          <p>${el.title}</p>
+        </div>
+      </a>
+    </div>`
 
-    slideWrap.append(a);
-    a.append(imgWrap);
-    a.append(txtWrap);
-    imgWrap.append(img);
-    txtWrap.append(time);
-    txtWrap.append(title);
-    time.append(el.time);
-    title.append(el.title);
-
-    $('.shopLive .swiper-wrapper').append(slideWrap);
+    $('.shopLive .swiper-wrapper').append(html);
   });
+  
   data.liveCalendar.forEach(function(el){
     let li = document.createElement('li');
     let a = document.createElement('a');

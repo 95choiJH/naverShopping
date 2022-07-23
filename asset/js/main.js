@@ -2,7 +2,7 @@ $(function(){
     
   var swiper = new Swiper(".eventSlide", {
     spaceBetween: 14,
-    slidesPerView: 3,
+    slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
     loopedSlides: 2,
