@@ -73,7 +73,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
             <div class="smallTxt-wrap">`
             el.other != null ? html += `<p>${el.other}</p>` : ""
     html += `<strong>${el.smallTitle}</strong>`
-            el.price != null ? html += `<div class="price-area"><em class="discount">${el.discount}</em><em>${el.price}<span>원</span></em></div>` : ""
+            el.price != null ? html += `<div class="price-area"><em class="discount">${el.discount}</em><em>${el.price}<pan>원</span></em></div>` : ""
     html += `</div>
           </div>
           <div class="txtBot-box">
@@ -91,7 +91,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
 
     html +=
     `<li>
-      <a href="" style="background-image: url("${el.src}")">
+      <a href="" style="background-image: url(${el.src})">
         <em>${el.title}</em>
       </a>
     </li>`
@@ -140,7 +140,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
 
     html += 
     `<li>
-      <a href="" style="background-image: url("${el.src}")">
+      <a href="" style="background-image: url(${el.src})">
         <span>${el.title}</span>
       </a>
     </li>`
@@ -212,7 +212,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     html +=
     `<li>
       <a href="">
-        <i style="background-image: url("${el.src}")"></i>
+        <i style="background-image: url(${el.src})"></i>
         ${el.title}
       </a>
     </li>`
