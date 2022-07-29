@@ -51,87 +51,39 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
   });
   
   data.liveCalendar.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let largeImg = document.createElement('img');
-    let timeBox = document.createElement('div');
-    let date = document.createElement('strong');
-    let txtWrap = document.createElement('div');
-    let txtTopBox = document.createElement('div');
-    let largeTitle = document.createElement('strong');
-    let smallItem = document.createElement('div');
-    let smallImg = document.createElement('img');
-    let smallTxtWrap = document.createElement('div');
-    let smallTitle = document.createElement('strong');
-    let txtBotBox = document.createElement('div');
-    let mall = document.createElement('span');
+    html = '';
 
-    a.setAttribute("href", "");
-    imgWrap.classList.add('img-wrap');
-    largeImg.setAttribute("src", el.largeSrc);
-    largeImg.setAttribute("alt", el.largeTitle);
-    timeBox.classList.add('time-box');
-    txtWrap.classList.add('txt-wrap');
-    txtTopBox.classList.add('txtTop-box');
-    smallItem.classList.add('small-item');
-    smallImg.setAttribute("src", el.smallSrc);
-    smallImg.setAttribute("alt", el.smallTitle);
-    smallTxtWrap.classList.add('smallTxt-wrap');
-    txtBotBox.classList.add('txtBot-box');
+    html += 
+    `<li>
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.largeSrc}" alt="${el.largeTitle}">
+          <div class="time-box">
+            <strong>${el.date}</strong>
+            ${el.time}
+          </div>
+        </div>
+        <div class="txt-wrap">
+          <div class="txtTop-box">
+            <strong>${el.largeTitle}</strong>
+            <span class="desc">${el.desc}</span>
+          </div>
+          <div class="small-item">
+            <img src="${el.smallSrc}" alt="${el.smallTitle}">
+            <div class="smallTxt-wrap">`
+            el.other != null ? html += `<p>${el.other}</p>` : ""
+    html += `<strong>${el.smallTitle}</strong>`
+            el.price != null ? html += `<div class="price-area"><em class="discount">${el.discount}</em><em>${el.price}<span>원</span></em></div>` : ""
+    html += `</div>
+          </div>
+          <div class="txtBot-box">
+            <span>${el.mall}</span>
+          </div>
+        </div>
+      </a>
+    </li>`
 
-    li.append(a);
-    a.append(imgWrap);
-    a.append(txtWrap);
-    imgWrap.append(largeImg);
-    imgWrap.append(timeBox);
-    timeBox.append(date);
-    timeBox.append(el.time);
-    date.append(el.date);
-    txtWrap.append(txtTopBox);
-    txtWrap.append(smallItem);
-    txtWrap.append(txtBotBox);
-    txtTopBox.append(largeTitle);
-    largeTitle.append(el.largeTitle);
-    smallItem.append(smallImg);
-    smallItem.append(smallTxtWrap);
-    smallImg.setAttribute("src", el.smallSrc);
-    smallImg.setAttribute("alt", el.smallTitle);
-    smallTxtWrap.append(smallTitle);
-    smallTitle.append(el.smallTitle);
-    txtBotBox.append(mall);
-    mall.append(el.mall);
-
-    if(el.desc != null) {
-      let desc = document.createElement('span');
-      desc.classList.add('desc');
-      txtTopBox.append(desc);
-      desc.append(el.desc);
-    }
-    if (el.price != null) {
-      let wrap = document.createElement('div');
-      let discount = document.createElement('em');
-      let price = document.createElement('em');
-      let won = document.createElement('span');
-
-      wrap.classList.add('price-area')
-      discount.classList.add('discount');
-
-      wrap.append(discount);
-      wrap.append(price);
-      discount.append(el.discount);
-      price.append(el.price);
-      price.append(won);
-      won.append("원");
-
-      smallTxtWrap.append(wrap);
-    } else if (el.other != null) {
-      let other = document.createElement('p');
-      other.append(el.other);
-      smallTxtWrap.prepend(other);
-    }
-
-    $('.sc-liveCalendar .content-box').append(li);
+    $('.sc-liveCalendar .content-box').append(html);
   })
 
   data.trend.forEach(function(el){
