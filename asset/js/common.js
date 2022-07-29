@@ -87,282 +87,152 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
   })
 
   data.trend.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let title = document.createElement('em');
+    html = '';
 
-    a.setAttribute("href", "");
-
-    li.append(a);
-    a.append(title);
-    a.style.backgroundImage = "url("+el.src+")"
-    title.append(el.title);
-
-    $('.sc-trend ul').append(li);
+    html +=
+    `<li>
+      <a href="" style="background-image: url("${el.src}")">
+        <em>${el.title}</em>
+      </a>
+    </li>`
+    $('.sc-trend ul').append(html);
   })
   
   data.shopMall.forEach(function(el){
-    let li = document.createElement('li');
-    let btn = document.createElement('button');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let title = document.createElement('em');
+    html = '';
 
-    imgWrap.classList.add('img-wrap');
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
+    html += 
+    `<li>
+      <button>
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">
+        </div>
+        <em>${el.title}</em>
+      </button>
+    </li>`
     
-    li.append(btn);
-    btn.append(imgWrap);
-    btn.append(title);
-    imgWrap.append(img);
-    title.append(el.title);
-    
-    $('.sc-toptop .btn-more').before(li);
+    $('.sc-toptop .btn-more').before(html);
   })
 
   data.shopMallItem.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let txtWrap = document.createElement('div');
-    let price = document.createElement('em');
-    let title = document.createElement('strong');
+    html = '';
 
-    a.setAttribute("href", "");
-    imgWrap.classList.add('img-wrap');
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    txtWrap.classList.add('txt-wrap');
-    
-    li.append(a);
-    a.append(imgWrap);
-    a.append(txtWrap);
-    imgWrap.append(img);
-    txtWrap.append(price);
-    txtWrap.append(title);
-    price.append(el.price);
-    title.append(el.title);
+    html += 
+    `<li>
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">`
+          el.stamp != null ? html += `<span class="stamp">18%SALE</span>` : ""
+    html +=
+        `</div>
+        <div class="txt-wrap">
+          <em>${el.price}</em>
+          <strong>${el.title}</strong>
+        </div>
+      </a>
+    </li>`
 
-    if (el.stamp != null) {
-      let stamp = document.createElement('span');
-      stamp.classList.add('stamp');
-      imgWrap.append(stamp);
-      stamp.append(el.stamp);
-    }
-
-    $('.sc-toptop .item-wrap').append(li);
+    $('.sc-toptop .item-wrap').append(html);
   });
 
   data.rank.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let title = document.createElement('span');
+    html = '';
 
-    a.setAttribute("href", "");
-    a.style.backgroundImage = "url("+el.src+")"
+    html += 
+    `<li>
+      <a href="" style="background-image: url("${el.src}")">
+        <span>${el.title}</span>
+      </a>
+    </li>`
 
-    li.append(a);
-    a.append(title);
-    title.append(el.title);
-
-    $('.content-rank ul').append(li);
+    $('.content-rank ul').append(html);
   });
 
   data.best.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let num = document.createElement('span');
-    let txtWrap = document.createElement('div');
-    let title = document.createElement('strong');
-    let price = document.createElement('em');
-    let won = document.createElement('span');
+    html = '';
 
-    a.setAttribute("href", "");
-    imgWrap.classList.add('img-wrap');
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    txtWrap.classList.add('txt-box');
-    
-    li.append(a);
-    a.append(imgWrap);
-    a.append(txtWrap);
-    imgWrap.append(img);
-    imgWrap.append(num);
-    num.append(el.num);
-    txtWrap.append(title);
-    txtWrap.append(price);
-    title.append(el.title);
-    price.append(el.price);
-    price.append(won);
-    won.append("원");
+    html +=
+    `<li>
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">
+          <span>${el.num}</span>
+        </div>
+        <div class="txt-box">
+          <strong>${el.title}</strong>
+          <em>${el.price}<span>원</span></em>
+        </div>
+      </a>
+    </li>`
 
-    $('.content-best ul').append(li);
+    $('.content-best ul').append(html);
   });
 
   data.brand.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let title = document.createElement('em');
+    html = '';
 
-    a.setAttribute("href", "");
-    imgWrap.classList.add('img-wrap');
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    
-    li.append(a);
-    a.append(imgWrap);
-    a.append(title);
-    imgWrap.append(img);
-    title.append(el.title);
+    html +=
+    `<li>
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">
+        </div>
+        <em>${el.title}</em>
+      </a>
+    </li>`
 
-    $('.sc-brand ul').append(li);
+    $('.sc-brand ul').append(html);
   });
 
   data.hotDeal.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let imgWrap = document.createElement('div');
-    let img = document.createElement('img');
-    let stamp = document.createElement('div');
-    let per = document.createElement('span');
-    let txtWrap = document.createElement('div');
-    let time = document.createElement('p');
-    let title = document.createElement('strong');
-    let price = document.createElement('em');
-    let won = document.createElement('span');
+    html = '';
 
-    imgWrap.classList.add("img-wrap");
-    img.setAttribute("src", el.src);
-    img.setAttribute("alt", el.title);
-    stamp.classList.add("discount-stamp");
-    txtWrap.classList.add("txt-wrap");
-    
-    li.append(a);
-    a.append(imgWrap);
-    a.append(txtWrap);
-    imgWrap.append(img);
-    imgWrap.append(stamp);
-    stamp.append(el.discount);
-    stamp.append(per);
-    per.append("%");
-    txtWrap.append(time);
-    txtWrap.append(title);
-    txtWrap.append(price);
-    time.append("남은시간 00: 00: 00")
-    title.append(el.title);
-    price.append(el.price);
-    price.append(won);
-    won.append("원");
+    html +=
+    `<li>
+      <a href="">
+        <div class="img-wrap">
+          <img src="${el.src}" alt="${el.title}">
+          <div class="discount-stamp">${el.discount}<span>%</span></div>
+        </div>
+        <div class="txt-wrap">
+          <p>남은시간 00: 00: 00</p>
+          <strong>${el.title}</strong>
+          <em>${el.price}<span>원</span></em>
+        </div>
+      </a>
+    </li>`
 
-    $('.sc-hotDeal ul').append(li);
+    $('.sc-hotDeal ul').append(html);
   
   });
 
   data.category.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
-    let i = document.createElement('i');
+    html = '';
 
+    html +=
+    `<li>
+      <a href="">
+        <i style="background-image: url("${el.src}")"></i>
+        ${el.title}
+      </a>
+    </li>`
 
-    a.setAttribute("href", "");
-    i.style.backgroundImage = "url("+el.src+")";
-
-    li.append(a);
-    a.append(i);
-    a.append(el.title);
-
-    $('.category-area ul').append(li);
+    $('.category-area ul').append(html);
   });
 
   data.service.forEach(function(el){
-    let li = document.createElement('li');
-    let a = document.createElement('a');
+    html = '';
 
-    a.setAttribute("href", "");
+    html += 
+    `<li>
+      <a href="">`
+        el.title != null ? html += `<i>${el.svg}</i> ${el.title}` : html += `${el.svg} ${el.titleSVG}`
+    html += 
+      `</a>
+    </li>`
 
-    li.append(a);
-
-    if (el.title != null) {
-      let i = document.createElement('i');
-      a.append(i);
-      a.append(el.title);
-      i.innerHTML = el.svg;
-    } else {
-      a.innerHTML = el.svg + el.titleSVG;
-    }
-
-    $('.service-area ul').append(li);
+    $('.service-area ul').append(html);
   });
-
-    let brandImg = document.createElement('img');
-    let itemImg = document.createElement('img');
-    let brand = document.createElement('em');
-    let pickCount = document.createElement('span');
-    let title = document.createElement('h2');
-    let reviewCount = document.createElement('span');
-    let disPer = document.createElement('em');
-    let del = document.createElement('em');
-    let priceWon = document.createElement('span');
-    let price = document.createElement('em');
-    let stackPoint = document.createElement('em');
-    let stackWon = document.createElement('span');
-    let oriPoint = document.createElement('span');
-    let maxPoint = document.createElement('span');
-    let fiveperPoint = document.createElement('em');
-    let cardPoint = document.createElement('em');
-    let chargePoint = document.createElement('em');
-
-    brandImg.setAttribute("src", data.itemPage[0].brandSrc);
-    brandImg.setAttribute("alt", data.itemPage[0].brand);
-    brandImg.style.maxWidth = data.itemPage[0].maxWidth;
-    brandImg.style.maxHeight = data.itemPage[0].maxHeight;
-    itemImg.setAttribute("src", data.itemPage[0].itemSrc);
-    itemImg.setAttribute("alt", data.itemPage[0].title);
-    brandImg.classList.add('brand-title');
-    del.classList.add('del');
-    price.classList.add('discount-price');
-    maxPoint.classList.add('max-point');
-    brand.append(data.itemPage[0].brand);
-    pickCount.append(data.itemPage[0].pickCount);
-    title.append(data.itemPage[0].title);
-    reviewCount.append(data.itemPage[0].reviewCount);
-    disPer.append(data.itemPage[0].disPer);
-    del.append(data.itemPage[0].del);
-    price.append(data.itemPage[0].price);
-    priceWon.append("원")
-    price.append(priceWon);
-    stackPoint.append(data.itemPage[0].stackPoint);
-    stackWon.append("원")
-    stackPoint.append(stackWon);
-    oriPoint.append(data.itemPage[0].oriPoint);
-    maxPoint.append(data.itemPage[0].maxPoint);
-    fiveperPoint.append(data.itemPage[0].fiveperPoint);
-    cardPoint.append(data.itemPage[0].cardPoint);
-    chargePoint.append(data.itemPage[0].chargePoint);
-
-    $('.header-sub .logo-area').append(brandImg);
-    $('.sc-item .img-area .img-wrap').append(itemImg);
-    $('.pick-area').prepend(brand);
-    $('.pick').append(pickCount);
-    $('.sc-item .item-info').prepend(title);
-    $('.more-review').prepend(reviewCount);
-    $('.discount-area').append(disPer);
-    $('.discount-area').append(del);
-    $('.item-info').append(price);
-    $('.discount-price').append(priceWon);
-    $('.stack-point').append(stackPoint);
-    $('.tip-box .origin').append(oriPoint);
-    $('.maxPoint-area').append(maxPoint);
-    $('.maxPoint-area').append("원");
-    $('.fiveperPoint').append(fiveperPoint);
-    $('.cardPoint').append(cardPoint);
-    $('.chargePoint').append(chargePoint);
 }).catch(function(error){
-  console.error("gnbMenu 에러");
+  console.error("에러");
 })
