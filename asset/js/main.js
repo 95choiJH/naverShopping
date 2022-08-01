@@ -17,6 +17,9 @@ $(function(){
       el: ".swiper-pagination",
     },
   });
+  // window.onloade = function(){
+    window.resizeTo(800, 1000);
+  // }
 
 
 })
