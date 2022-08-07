@@ -64,7 +64,7 @@
         padding: 16px 5px 14px;
         text-align: center;
     }
-    h3 {
+    h2 {
         font-size: 16px;
         font-weight: 900;
         line-height: 22px;
@@ -115,6 +115,7 @@
     a {
         display: flex;
         align-items: center;
+        overflow: hidden;
     }
     .img-wrap {
         position: relative;
@@ -249,7 +250,7 @@
         align-items: center;
         padding-left: 15px;
     }
-    h3 {
+    h2 {
         font-size: 17px;
         font-weight: bold;
         line-height: 20px;
@@ -290,7 +291,6 @@
         position: relative;
         display: block;
         padding-top: 120%;
-        // background-image: url(../images/trend01.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         em {
@@ -557,7 +557,7 @@
             }
         }
     }
-    h3 {
+    h2 {
         text-align: center;
     }
     a {
@@ -650,7 +650,7 @@
     }
     .content-rank {
         padding: 0 4px 9px 5px;
-        h4 {
+        h3 {
             display: block;
             line-height: 22px;
             padding: 16px 5px;
@@ -715,7 +715,7 @@
     }
     .content-best {
         border-top: 1px solid #eeeff1;
-        h4 {
+        h3 {
             display: block;
             padding: 16px 5px;
             font-size: 16px;
@@ -820,7 +820,7 @@
         padding: 18px 0 15px;
         letter-spacing: -.5px;
         text-align: center;
-        h3 {
+        h2 {
             display: block;
             padding: 0 5px;
             font-size: 16px;
@@ -896,7 +896,7 @@
         letter-spacing: -.5px;
         color: #fff;
         text-align: center;
-        h3 {
+        h2 {
             margin-bottom: 3px;
             background-color: #f96a70;
             font-size: 12px;
@@ -1005,7 +1005,7 @@
 }
 .sc-total {
     margin-bottom: 23px;
-    h3 {
+    strong {
         display: block;
         padding: 16px 5px 8px;
         font-size: 16px;

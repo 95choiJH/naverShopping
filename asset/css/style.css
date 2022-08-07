@@ -74,11 +74,6 @@ code {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
 a {
   color: inherit;
   cursor: pointer;
@@ -829,7 +824,7 @@ body {
   padding: 16px 5px 14px;
   text-align: center;
 }
-.sc-recentItem h3 {
+.sc-recentItem h2 {
   font-size: 16px;
   font-weight: 900;
   line-height: 22px;
@@ -884,6 +879,7 @@ body {
 .sc-liveCalendar a {
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .sc-liveCalendar .img-wrap {
   position: relative;
@@ -1034,7 +1030,7 @@ body {
   align-items: center;
   padding-left: 15px;
 }
-.sc-trend h3 {
+.sc-trend h2 {
   font-size: 17px;
   font-weight: bold;
   line-height: 20px;
@@ -1370,7 +1366,7 @@ body {
   border: 1px solid #fff;
   border-radius: 50%;
 }
-.sc-pick h3 {
+.sc-pick h2 {
   text-align: center;
 }
 .sc-pick a {
@@ -1465,7 +1461,7 @@ body {
 .sc-rank .content-rank {
   padding: 0 4px 9px 5px;
 }
-.sc-rank .content-rank h4 {
+.sc-rank .content-rank h3 {
   display: block;
   line-height: 22px;
   padding: 16px 5px;
@@ -1551,7 +1547,7 @@ body {
 .sc-rank .content-best {
   border-top: 1px solid #eeeff1;
 }
-.sc-rank .content-best h4 {
+.sc-rank .content-best h3 {
   display: block;
   padding: 16px 5px;
   font-size: 16px;
@@ -1667,7 +1663,7 @@ body {
   letter-spacing: -0.5px;
   text-align: center;
 }
-.sc-brand .title-box h3 {
+.sc-brand .title-box h2 {
   display: block;
   padding: 0 5px;
   font-size: 16px;
@@ -1751,7 +1747,7 @@ body {
   color: #fff;
   text-align: center;
 }
-.sc-hotDeal .title-box h3 {
+.sc-hotDeal .title-box h2 {
   margin-bottom: 3px;
   background-color: #f96a70;
   font-size: 12px;
@@ -1761,7 +1757,7 @@ body {
   color: #fff;
   text-align: center;
 }
-.sc-hotDeal .title-box h3 svg {
+.sc-hotDeal .title-box h2 svg {
   display: block;
   margin: 0 auto;
 }
@@ -1878,7 +1874,7 @@ body {
 .sc-total {
   margin-bottom: 23px;
 }
-.sc-total h3 {
+.sc-total strong {
   display: block;
   padding: 16px 5px 8px;
   font-size: 16px;
