@@ -9,7 +9,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     
     html = '';
 
-    el.title != null ? html += `<li><a href="">${el.title}` : el.svg != null ? html += `<li><a href=""><span class="blind">${el.blind}</span>${el.svg}` : html += `<li><a href="" class="img-title"><div class="img-menu" style="width: ${el.width}; height: ${el.height}; background-position: ${el.position};"></div><span class="blind">${el.blind}</span>`    
+    el.title != null ? html += `<li><a href=""><em>${el.title}</em>` : el.svg != null ? html += `<li><a href=""><span class="blind">${el.blind}</span>${el.svg}` : html += `<li><a href="" class="img-title"><em><span class="img-menu" style="width: ${el.width}; height: ${el.height}; background-position: ${el.position};"></span><span class="blind">${el.blind}</span></em>`    
     el.beta != null ? html += `<i></i></a></li>` : html += `</a></li>`;
 
     $('.gnb-wrap').append(html);
@@ -21,7 +21,9 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     html += 
     `<div class="swiper-slide">
         <a href="">
-          <img src="${el.src}" alt="${el.title}">
+          <div class="img-wrap">
+            <img src="${el.src}" alt="${el.title}">
+          </div>
           <div class="text-wrap">
             <strong>${el.title}</strong>
             <span class="desc">${el.desc}</span>
@@ -58,16 +60,13 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
       <a href="">
         <div class="img-wrap">
           <img src="${el.largeSrc}" alt="${el.largeTitle}">
-          <div class="time-box">
-            <strong>${el.date}</strong>
-            ${el.time}
-          </div>
+          <strong class="time-box">${el.date}<span>${el.time}</span></strong>
         </div>
         <div class="txt-wrap">
           <div class="txtTop-box">
-            <strong>${el.largeTitle}</strong>
-            <span class="desc">${el.desc}</span>
-          </div>
+            <h4>${el.largeTitle}</h4>`
+            el.desc != null ? html += `<p class="desc">${el.desc}</p>` : ""
+html += `</div>
           <div class="small-item">
             <img src="${el.smallSrc}" alt="${el.smallTitle}">
             <div class="smallTxt-wrap">`
@@ -141,7 +140,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     html += 
     `<li>
       <a href="" style="background-image: url(${el.src})">
-        <span>${el.title}</span>
+        <div class="txt-wrap"><em>${el.title}</em></div>
       </a>
     </li>`
 
@@ -159,7 +158,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
           <span>${el.num}</span>
         </div>
         <div class="txt-box">
-          <strong>${el.title}</strong>
+          <h4>${el.title}</h4>
           <em>${el.price}<span>원</span></em>
         </div>
       </a>
@@ -196,7 +195,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
         </div>
         <div class="txt-wrap">
           <p>남은시간 00: 00: 00</p>
-          <strong>${el.title}</strong>
+          <h3>${el.title}</h3>
           <em>${el.price}<span>원</span></em>
         </div>
       </a>
@@ -212,8 +211,8 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     html +=
     `<li>
       <a href="">
-        <i style="background-image: url(${el.src})"></i>
-        ${el.title}
+        <div class="ic-cate" style="background-image: url(${el.src})"></div>
+        <h3>${el.title}</h3>
       </a>
     </li>`
 
@@ -226,7 +225,7 @@ fetch('https://95choijh.github.io/naverShopping/asset/json/main.json')
     html += 
     `<li>
       <a href="">`
-        el.title != null ? html += `<i>${el.svg}</i> ${el.title}` : html += `${el.svg} ${el.titleSVG}`
+        el.title != null ? html += `<div class="ic-service">${el.svg}</div><h3>${el.title}</h3>` : html += `${el.svg} ${el.titleSVG}`
     html += 
       `</a>
     </li>`

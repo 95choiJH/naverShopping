@@ -1,12 +1,12 @@
 $(function(){
     
   var swiper = new Swiper(".eventSlide", {
+    loopAdditionalSlides : 1,
+    loopedSlides: 2,
     spaceBetween: 14,
     slidesPerView: "auto",
     centeredSlides: true,
     loop: true,
-    loopedSlides: 2,
-    loopAdditionalSlides : 1,
     pagination: {
       el: ".swiper-pagination",
     },

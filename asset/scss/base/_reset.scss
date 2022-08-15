@@ -118,29 +118,6 @@ select {
 input,
 textarea {
     border: 0;
-    &::placeholder {
-        /* Chrome, Safari, Firefox */
-        color: #444;
-        opacity: 1;
-    }
-    &:-ms-input-placeholder {
-        /* IE, Edge */
-        color: #444;
-        opacity: 1;
-    }
-    &[readonly],
-    &:disabled {
-        &::placeholder {
-            /* Chrome, Safari, Firefox */
-            color: rgba(#000, 0.2);
-            opacity: 1;
-        }
-        &:-ms-input-placeholder {
-            /* IE, Edge */
-            color: rgba(#000, 0.2);
-            opacity: 1;
-        }
-    }
     &::-ms-clear,
     &::-ms-reveal {
         /* IE, Edge */
